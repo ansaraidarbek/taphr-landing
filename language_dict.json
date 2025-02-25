@@ -1,0 +1,1531 @@
+{
+    "en": {
+        "desktop": {
+            "navigation": {
+                "features": "Features",
+                "why_us": "Why us",
+                "pricing": "Pricing",
+                "sign_in": "Sign In",
+                "request_demo": "Request demo"
+            },
+            "preview": {
+                "title": [
+                    {"text": "Take Your Recruitment to"},
+                    {"text": "the Next Level", "color": "green"}
+                ],
+                "subtitle": "Automate your hiring process and fill positions twice as fast with tapHR.",
+                "button": "Request demo",
+                "overview": {
+                    "path": "./images/preview/en.webp",
+                    "candidates": {
+                        "name": "Candidates",
+                        "cards": [
+                            {
+                                "name": "Sophie Dubois",
+                                "email": "sophie.dubois@gmail.com",
+                                "phone": "+33 628 45-73-92"
+                            },
+                            {
+                                "name": "Jason Huang",
+                                "email": "jensen.h@gmail.com",
+                                "phone": "+62 811-2754-6539"
+                            },
+                            {
+                                "name": "Jason Lee",
+                                "email": "j.lee@gmail.com",
+                                "phone": "+1 415-555-2747"
+                            }
+                        ]
+                    },
+                    "job_postings": {
+                        "name": "Job postings",
+                        "table": {
+                            "columns": [
+                                "Job Title",
+                                "Region",
+                                "Department",
+                                "Applications"
+                            ],
+                            "rows": [
+                                {
+                                    "title": "Sales Manager",
+                                    "region": "Berlin",
+                                    "department": "Sales"
+                                },
+                                {
+                                    "title": "UX/UI Designer",
+                                    "region": "Lisbon",
+                                    "department": "IT"
+                                },
+                                {
+                                    "title": "Backend Developer",
+                                    "region": "New York",
+                                    "department": "IT"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "partners_section": {
+                "title": "Our Partners"
+            },
+            "features_section": {
+                "title": "All-in-one Recruitment automation",
+                "subtitle": "Your ultimate tool to streamline hiring at every step",
+                "features": [
+                    {
+                        "title": [
+                            "Create job listings",
+                            "in just a few clicks"
+                        ],
+                        "description": "tapHR AI generates job postings for you, using optimized language to attract the right candidates.",
+                        "infographics": {
+                            "modal_title": "Generate a job posting with AI",
+                            "placeholder": "Describe the job in a few words...",
+                            "buttons": [
+                                "Cancel",
+                                "Generate"
+                            ],
+                            "path": "./images/features/1_en.webp"
+                        }
+                    },
+                    {
+                        "title": "Reach all job platforms simultaneously",
+                        "description": "tapHR publishes your vacancies on key job boards and collects all responses in one place, saving you time on manual tasks.",
+                        "infographics": {
+                            "applications": "+2 applications",
+                            "path": "./images/features/2_en.webp"
+                        }
+                    },
+                    {
+                        "title": "Full control over your recruitment funnel",
+                        "description": "Customize every stage of the hiring process and monitor your funnel in real time to speed up candidate selection.",
+                        "infographics": {
+                            "body": [
+                                {
+                                    "stage": "New applications",
+                                    "button": "Add new candidate",
+                                    "card": {
+                                        "name": "John Mayer",
+                                        "email": "mayer@icloud.com",
+                                        "phone": "+34 672 983 456"
+                                    }
+                                },
+                                {
+                                    "stage": "Test Assignments",
+                                    "card": {
+                                        "name": "Isabella Fernández",
+                                        "email": "isabella-uiux@gmail.com",
+                                        "phone": "+34 672 983 456"
+                                    }
+                                }
+                            ],
+                            "path": "./images/features/3_en.webp"
+                        }
+                    },
+                    {
+                        "title": "Smart recommendations that save you time",
+                        "description": "The platform automatically analyzes resumes and job requirements, making it easy to select the ideal candidate in seconds.",
+                        "button": "Request demo",
+                        "infographics": {
+                            "title": "What makes tapHR AI unique?",
+                            "description": "Our AI analyzes and ranks candidates based on their skills, experience, and job fit, helping you quickly find the best talent.",
+                            "score_name": "Candidate score",
+                            "path": "./images/features/4_en.webp"
+                        }
+                    }
+                ]
+            },
+            "additional_features_section": {
+                "title": "but wait, there's more...",
+                "subtitle": "All the tools you need to hire smarter—all in one platform",
+                "tools": [
+                    {
+                        "title": "Centralized candidate management",
+                        "description": "Say goodbye to scattered files—keep all your data in one place. Instantly find the right candidates and track their history with ease.",
+                        "path": "./images/features/5_en.webp"
+                    },
+                    {
+                        "title": "Seamless communication",
+                        "description": "Use ready-made templates for every stage of the hiring process. Send messages via email or messengers while maintaining a professional tone and corporate style.",
+                        "path": "./images/features/6_en.webp"
+                    },
+                    {
+                        "title": "Branded career page",
+                        "description": "Stand out as an employer of choice by designing a career page that reflects your company’s style. Showcase your brand and manage all applications in one place.",
+                        "path": "./images/features/7_en.webp"
+                    }
+                ]
+            },
+            "call_to_action_section": {
+                "title": [
+                    "Streamline your hiring",
+                    "starting today!"
+                ],
+                "button": "Get started now"
+            },
+            "why_choose_us_section": {
+                "title": "Why choose tapHR",
+                "subtitle": "for companies and recruiters",
+                "benefits": [
+                    {
+                        "title": "Faster hiring",
+                        "description": [
+                            "Fill positions faster and free up time for what",
+                            "truly matters."
+                        ]
+                    },
+                    {
+                        "title": "Cost savings",
+                        "description": [
+                            "Optimize your recruitment budget width",
+                            "streamlined processes and reduced manual",
+                            "tasks."
+                        ]
+                    },
+                    {
+                        "title": "Full transparency",
+                        "description": [
+                            "Easily track candidate status changes and",
+                            "provide clients with real-time updates."
+                        ]
+                    },
+                    {
+                        "title": "Stronger employer branding",
+                        "description": [
+                            "Stand out from competitors and attract top",
+                            "talent before anyone else."
+                        ]
+                    }
+                ]
+            },
+            "pricing_section": {
+                "title": "Simple, transparent pricing for every team",
+                "subtitle": [
+                    "Choose a plan tailored to your business needs"
+                ],
+                "pricing_models": [
+                    {
+                        "name": "Standard",
+                        "includes_title": "Includes:",
+                        "price_per": "/month",
+                        "price_sign": "$",
+                        "price_value": "55",
+                        "includes": [
+                            "Up to 2 users",
+                            "Integration with job boards",
+                            "Career page",
+                            "AI-powered recommendations",
+                            "Message templates",
+                            "AI resume scraping"
+                        ],
+                        "button": "Choose plan"
+                    },
+                    {
+                        "name": "Premium",
+                        "includes_title": "Includes:",
+                        "price_per": "/month",
+                        "price_sign": "$",
+                        "price_value": "130",
+                        "includes": [
+                            "Everything from Standard",
+                            "Up to 4 users",
+                            "Interview scheduling",
+                            "WhatsApp bot",
+                            "Candidate testing",
+                            "Video interviews"
+                        ],
+                        "button": "Choose plan"
+                    },
+                    {
+                        "name": "Enterprise",
+                        "price_per": "Custom pricing",
+                        "description": [
+                            "Tailored for maximum flexibility and advanced features."
+                        ],
+                        "button": "Contact sales"
+                    }
+                ],
+                "billing_options": [
+                    {
+                        "text": "Annually",
+                        "subtext": "save 20%"
+                    },
+                    {
+                        "text": "Monthly"
+                    }
+                ]
+            },
+            "demo_booking_section": {
+                "title": "Book your personalized demo",
+                "subtitle": "Share your details, and we’ll demonstrate how tapHR can transform your hiring process.",
+                "form_fields": {
+                    "name": "Your name",
+                    "company": "Company name",
+                    "phone": "Your phone number"
+                },
+                "button": "Request demo",
+                "privacy_note": [
+                    "By submitting this form, you agree to the processing of your personal data",
+                    "in accordance with tapHR's <s>Privacy Policy</s>"
+                ]
+            },
+            "footer": {
+                "links": [
+                    "Privacy Policy",
+                    "Terms of Service"
+                ],
+                "quick_links": {
+                    "name": "Quick links",
+                    "options": [
+                        "Features",
+                        "Why us",
+                        "Pricing"
+                    ]
+                },
+                "contacts": {
+                    "name": "Contacts",
+                    "options": {
+                        "email": "sales@tapHR.kz",
+                        "phone": "+7 (771) 758 35 33",
+                        "location": "Astana, Kazakhstan"
+                    }
+                },
+                "social_media": "Social media",
+                "copyright": "© tapHR 2025. All rights reserved."
+            }
+        },
+        "mobile": {
+            "navigation": {
+                "features": "Features",
+                "why_us": "Why us",
+                "pricing": "Pricing",
+                "request_demo": "Request demo"
+            },
+            "preview": {
+                "title": [
+                    {"text": "Take Your Recruitment to"},
+                    {"text": "the Next Level", "color": "green"}
+                ],
+                "subtitle": "Automate your hiring process and fill positions twice as fast with tapHR.",
+                "button": "Request demo",
+                "overview": {
+                    "path": "./images/preview/en.webp",
+                    "candidates": {
+                        "name": "Candidates",
+                        "cards": [
+                            {
+                                "name": "Sophie Dubois",
+                                "email": "sophie.dubois@gmail.com",
+                                "phone": "+33 628 45-73-92"
+                            },
+                            {
+                                "name": "Jason Huang",
+                                "email": "jensen.h@gmail.com",
+                                "phone": "+62 811-2754-6539"
+                            },
+                            {
+                                "name": "Jason Lee",
+                                "email": "j.lee@gmail.com",
+                                "phone": "+1 415-555-2747"
+                            }
+                        ]
+                    },
+                    "job_postings": {
+                        "name": "Job postings",
+                        "table": {
+                            "columns": [
+                                "Job Title",
+                                "Region",
+                                "Department",
+                                "Applications"
+                            ],
+                            "rows": [
+                                {
+                                    "title": "Sales Manager",
+                                    "region": "Berlin",
+                                    "department": "Sales"
+                                },
+                                {
+                                    "title": "UX/UI Designer",
+                                    "region": "Lisbon",
+                                    "department": "IT"
+                                },
+                                {
+                                    "title": "Backend Developer",
+                                    "region": "New York",
+                                    "department": "IT"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "partners_section": {
+                "title": "Our Partners"
+            },
+            "features_section": {
+                "title": "All-in-one Recruitment",
+                "subtitle": "Your tool to streamline hiring at every step",
+                "features": [
+                    {
+                        "title": [
+                            "Create job listings",
+                            "in just a few clicks"
+                        ],
+                        "description": "tapHR AI generates job postings for you, using optimized language to attract the right candidates.",
+                        "infographics": {
+                            "modal_title": "Generate a job posting with AI",
+                            "placeholder": "Describe the job in a few words...",
+                            "buttons": [
+                                "Cancel",
+                                "Generate"
+                            ],
+                            "path": "./images/features/1_en.webp"
+                        }
+                    },
+                    {
+                        "title": "Reach all job platforms simultaneously",
+                        "description": "tapHR publishes your vacancies on key job boards and collects all responses in one place, saving you time on manual tasks.",
+                        "infographics": {
+                            "applications": "+2 applications",
+                            "path": "./images/features/2_en.webp"
+                        }
+                    },
+                    {
+                        "title": "Full control over your recruitment funnel",
+                        "description": "Customize every stage of the hiring process and monitor your funnel in real time to speed up candidate selection.",
+                        "infographics": {
+                            "body": [
+                                {
+                                    "stage": "New applications",
+                                    "button": "Add new candidate",
+                                    "candidate": {
+                                        "name": "John Mayer",
+                                        "email": "mayer@icloud.com",
+                                        "phone": "+7 777 101 77 77",
+                                        "score": "60%"
+                                    }
+                                },
+                                {
+                                    "stage": "Test assignments",
+                                    "candidate": {
+                                        "name": "Isabella Fernández",
+                                        "email": "isabella-uiux@gmail.com",
+                                        "phone": "+34 672 983 456"
+                                    }
+                                }
+                            ],
+                            "path": "./images/features/3_en.webp"
+                        }
+                    },
+                    {
+                        "title": "Recommendations that save you time",
+                        "description": "The platform automatically analyzes resumes and job requirements, making it easy to select the ideal candidate in seconds.",
+                        "button": "Request demo",
+                        "infographics": {
+                            "title": "What makes tapHR AI unique?",
+                            "description": "Our AI analyzes and ranks candidates based on their skills, experience, and job fit, helping you quickly find the best talent.",
+                            "score_name": "Candidate score",
+                            "path": "./images/features/4_en.webp"
+                        }
+                    }
+                ]
+            },
+            "call_to_action_section": {
+                "title": [
+                    "Streamline your hiring",
+                    "starting today!"
+                ],
+                "button": "Get started now"
+            },
+            "why_choose_us_section": {
+                "title": "Why choose tapHR",
+                "subtitle": "for companies and recruiters",
+                "benefits": [
+                    {
+                        "title": "Faster hiring",
+                        "description": [
+                            "Fill positions faster and free up time",
+                            "for what truly matters."
+                        ]
+                    },
+                    {
+                        "title": "Cost savings",
+                        "description": [
+                            "Optimize your recruitment budget",
+                            "with streamlined processes",
+                            "and reduced manual tasks."
+                        ]
+                    },
+                    {
+                        "title": "Full transparency",
+                        "description": [
+                            "Easily track candidate status changes and",
+                            "provide clients with real-time updates."
+                        ]
+                    },
+                    {
+                        "title": "Stronger employer branding",
+                        "description": [
+                            "Stand out from competitors and attract top",
+                            "talent before anyone else."
+                        ]
+                    }
+                ]
+            },
+            "pricing_section": {
+                "title": "Simple pricing for every team",
+                "subtitle": [
+                    "Choose a plan",
+                    "tailored to your business needs"
+                ],
+                "billing_options": [
+                    {
+                        "text": "Annually",
+                        "subtext": "Save 20%"
+                    },
+                    {
+                        "text": "Monthly"
+                    }
+                ],
+                "pricing_models": [
+                    {
+                        "name": "Standard",
+                        "price_per": "/month",
+                        "price_sign": "$",
+                        "price_value": "55",
+                        "includes_title": "Includes:",
+                        "includes": [
+                            "Up to 2 users",
+                            "Integration with job boards",
+                            "Career page",
+                            "AI-powered recommendations",
+                            "Message templates",
+                            "AI resume scraping"
+                        ],
+                        "button": "Choose plan"
+                    },
+                    {
+                        "name": "Premium",
+                        "price_per": "/month",
+                        "price_sign": "$",
+                        "price_value": "130",
+                        "includes_title": "Includes:",
+                        "includes": [
+                            "Everything from Standard",
+                            "Up to 4 users",
+                            "Interview scheduling",
+                            "WhatsApp bot",
+                            "Candidate testing",
+                            "Video interviews"
+                        ],
+                        "button": "Choose plan"
+                    },
+                    {
+                        "name": "Enterprise",
+                        "price_per": "Custom pricing",
+                        "description": [
+                            "Tailored for maximum",
+                            "flexibility and advanced",
+                            "features."
+                        ],
+                        "button": "Contact sales"
+                    }
+                ]
+            },
+            "demo_booking_section": {
+                "title": "Book your personalized demo",
+                "subtitle": "Share your details, and we’ll demonstrate how tapHR can transform your hiring process.",
+                "form_fields": {
+                    "name": "Your name",
+                    "company": "Company name",
+                    "phone": "Your phone number"
+                },
+                "button": "Request demo",
+                "privacy_note": [
+                    "By submitting this form, you agree to the processing",
+                    "of your personal data in accordance",
+                    "with tapHR's <s>Privacy Policy</s>"
+                ]
+            },
+            "footer": {
+                "links": [
+                    "Privacy Policy",
+                    "Terms of Service"
+                ],
+                "quick_links": {
+                    "name": "Quick links",
+                    "options": [
+                        "Features",
+                        "Why us",
+                        "Pricing"
+                    ]
+                },
+                "contacts": {
+                    "name": "Contacts",
+                    "options": {
+                        "email": "sales@tapHR.kz",
+                        "phone": "+7 (771) 758 35 33",
+                        "location": "Astana, Kazakhstan"
+                    }
+                },
+                "social_media": "Social media",
+                "copyright": "© tapHR 2025. All rights reserved."
+            }
+        }
+    },
+    "kz": {
+        "desktop": {
+            "navigation": {
+                "features": "Шешімдер",
+                "why_us": "Неге біз",
+                "pricing": "Тарифтер",
+                "sign_in": "Кіру",
+                "request_demo": "Өтінім қалдыру"
+            },
+            "preview": {
+                "title": [
+                    {"text": "Жаңа деңгейдегі", "color": "green"},
+                    {"text": "рекрутинг"}
+                ],
+                "subtitle": "Жұмысқа қабылдау процесін жеңілдетіп, tapHR арқылы вакансияларды 2 есе жылдам жабыңыз.",
+                "button": "Өтінім қалдыру",
+                "overview": {
+                    "path": "./images/preview/kz.webp",
+                    "candidates": {
+                        "name": "Кандидаттар",
+                        "cards": [
+                            {
+                                "name": "Амин Сергеев",
+                                "email": "amin.sergeev@gmail.com",
+                                "phone": "+7 777 264 96 72"
+                            },
+                            {
+                                "name": "Айбек Нурденов",
+                                "email": "aibek.nurdenov@gmail.com",
+                                "phone": "+7 777 823 44 67"
+                            },
+                            {
+                                "name": "Дарина Бубка",
+                                "email": "darina.bubka@gmail.com",
+                                "phone": "+7 777 356 66 66"
+                            }
+                        ]
+                    },
+                    "job_postings": {
+                        "name": "Вакансиялар",
+                        "table": {
+                            "columns": [
+                                "Қызмет атауы",
+                                "Аймақ",
+                                "Бөлім",
+                                "Өтінімдер"
+                            ],
+                            "rows": [
+                                {
+                                    "title": "Сатылым менеджері",
+                                    "region": "Астана",
+                                    "department": "Сатылым"
+                                },
+                                {
+                                    "title": "UX/UI дизайнері",
+                                    "region": "Алматы",
+                                    "department": "IT"
+                                },
+                                {
+                                    "title": "Бэкенд әзірлеушісі",
+                                    "region": "Шымкент",
+                                    "department": "IT"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "partners_section": {
+                "title": "Біздің серіктестер"
+            },
+            "features_section": {
+                "title": "tapHR арқылы не істей аласыз",
+                "subtitle": "Жұмысқа қабылдаудың әр кезеңіндегі сіздің көмекшіңіз",
+                "features": [
+                    {
+                        "title": [
+                            "Бірнеше басу арқылы",
+                            "вакансия құрыңыз"
+                        ],
+                        "description": "AI сіз үшін вакансия құрады, қажетті кандидаттарды тартатын ең тиімді мәтіндерді таңдап береді.",
+                        "infographics": {
+                            "path": "./images/features/1_kz.webp"
+                        }
+                    },
+                    {
+                        "title": "Барлық жұмыс сайттарын қамтыңыз",
+                        "description": "tapHR вакансияңызды негізгі жұмыс іздеу сайттарында жариялап, барлық жауаптарды бір жерге жинайды, осылайша қолмен өңдеуге уақыт жоғалтпайсыз.",
+                        "infographics": {
+                            "path": "./images/features/2_kz.webp"
+                        }
+                    },
+                    {
+                        "title": "Жұмысқа алу процесін бақылауда ұстаңыз",
+                        "description": "Жұмысқа қабылдау кезеңдерін өз процестеріңізге бейімдеп, кандидаттарды жылдам іріктеу үшін әр қадамды нақты уақытта бақылаңыз.",
+                        "infographics": {
+                            "path": "./images/features/3_kz.webp"
+                        }
+                    },
+                    {
+                        "title": "Сіздің уақытыңызды үнемдейтін ұсыныстар",
+                        "description": "Платформа резюмелер мен вакансия талаптарын автоматты түрде талдап, қолайлы кандидаттарды секундтың ішінде таңдауға көмектеседі.",
+                        "button": "Өтінім қалдыру",
+                        "infographics": {
+                            "path": "./images/features/4_kz.webp"
+                        }
+                    }
+                ]
+            },
+            "additional_features_section": {
+                "title": "Жәй ғана CRM емес",
+                "subtitle": "Сізге қажетті құралдар — барлығы бір жерде.",
+                "tools": [
+                    {
+                        "title": "Кандидаттар базасы",
+                        "description": "Файлдардың арасындағы ретсіздікті ұмытыңыз — барлық мәліметтер бір жерде сақталады. Қажетті кандидаттарды жылдам табыңыз.",
+                        "path": "./images/features/5_kz.webp"
+                    },
+                    {
+                        "title": "Жылдам байланыс",
+                        "description": "Жұмысқа алу кезеңдеріне арналған дайын шаблондарды пайдаланыңыз, хабарламалар мен хаттарды мессенджерлер арқылы жіберіңіз.",
+                        "path": "./images/features/6_kz.webp"
+                    },
+                    {
+                        "title": "Мансаптық сайт",
+                        "description": "Компанияңызға арналған ерекше стильді таңдаңыз. Кандидаттарды тартып, олардың жауаптарын бір платформада бақылаңыз.",
+                        "path": "./images/features/7_kz.webp"
+                    }
+                ]
+            },
+            "call_to_action_section": {
+                "title": "Жұмысқа алу процесін жылдамдатыңыз!",
+                "button": "Өтінім қалдыру"
+            },
+            "why_choose_us_section": {
+                "title": "tapHR құндылықтары",
+                "subtitle": "компаниялар мен рекрутерлер үшін",
+                "benefits": [
+                    {
+                        "title": "Жұмысқа алуды жеделдету",
+                        "description": "Вакансияларды тезірек жауып, маңызды істерге уақыт босатыңыз."
+                    },
+                    {
+                        "title": "Шығындарды азайту",
+                        "description": "Күнделікті операцияларды азайту және жүйеленген процестердің арқасында қызметкерлерді іріктеу бюджетін оңтайландырыңыз."
+                    },
+                    {
+                        "title": "Толық ашықтық",
+                        "description": "Кандидаттардың статус өзгерістерін бақылаңыз және тапсырыс берушіге қолжетімділікті қамтамасыз етіңіз."
+                    },
+                    {
+                        "title": "Компанияның брендін нығайту",
+                        "description": "Бәсекелестер арасында ерекшеленіп, мықты кандидаттарды бірінші болып жұмысқа алыңыз."
+                    }
+                ]
+            },
+            "pricing_section": {
+                "title": "Әр командаға арналған тарифтер",
+                "subtitle": "Бизнесіңіздің қажеттіліктеріне сәйкес жоспарды таңдаңыз",
+                "billing_options": [
+                    {
+                        "text": "Жылдық",
+                        "subtext": "20% үнемдеңіз"
+                    },
+                    {
+                        "text": "Айлық"
+                    }
+                ],
+                "pricing_models": [
+                    {
+                        "name": "Стандарт",
+                        "includes_title": "Тарифтің ішінде:",
+                        "price_per": "/ай",
+                        "price_sign": "₸",
+                        "price_value": "29 500",
+                        "includes": [
+                            "2 пайдаланушыға дейін",
+                            "Жұмыс сайттарымен интеграция",
+                            "Мансаптық сайт",
+                            "AI ұсыныстары",
+                            "Хаттар шаблондары",
+                            "Резюмелерді AI арқылы өңдеу"
+                        ],
+                        "button": "Жоспарды таңдау"
+                    },
+                    {
+                        "name": "Премиум",
+                        "includes_title": "Тарифтің ішінде:",
+                        "price_per": "/ай",
+                        "price_sign": "₸",
+                        "price_value": "70 000",
+                        "includes": [
+                            "“Стандарт” тарифі",
+                            "4 пайдаланушыға дейін",
+                            "Сұхбаттарды жоспарлау",
+                            "WhatsApp боты",
+                            "Кандидаттарды тестілеу",
+                            "Видео сұхбат"
+                        ],
+                        "button": "Жоспарды таңдау"
+                    },
+                    {
+                        "name": "Корпоративтік",
+                        "price_per": "Жеке баға",
+                        "description": [
+                            "Индивидуалды тариф, ең көп мүмкіндіктер береді.",
+                            "Шарттар мен баға тапсырыс берушімен талқыланады."
+                        ],
+                        "button": "Бізбен байланысыңыз"
+                    }
+                ]
+            },
+            "demo_booking_section": {
+                "title": "Жеке демонстрацияға тапсырыс беріңіз",
+                "subtitle": "Өтінім қалдырыңыз — біз сізге tapHR қалай жұмысқа алу процесін жақсартатынын көрсетеміз.",
+                "form_fields": {
+                    "name": "Есіміңіз",
+                    "company": "Компания атауы",
+                    "phone": "+7(___)___-__-__"
+                },
+                "button": "Өтінім жіберу",
+                "privacy_note": [
+                    "Форманы жіберу арқылы мен жеке деректерімді tapHR <s>құпиялық саясатына</s> сәйкес өңдеуге келісімімді беремін."
+                ]
+            },
+            "footer": {
+                "links": [
+                    "Құпиялық саясаты",
+                    "Жария оферта"
+                ],
+                "quick_links": {
+                    "name": "Меню",
+                    "options": [
+                        "Шешімдер",
+                        "Құндылықтар",
+                        "Тарифтер"
+                    ]
+                },
+                "contacts": {
+                    "name" : "Байланыс",
+                    "email": "sales@tapHR.kz",
+                    "phone": "+7 (771) 758 35 33",
+                    "location": "Қазақстан, Астана қ."
+                },
+                "social_media": "Әлеуметтік желілер",
+                "copyright": "© tapHR 2025. Барлық құқықтар қорғалған."
+            }
+        },
+        "mobile": {
+            "navigation": {
+                "features": "Шешімдер",
+                "why_us": "Неге біз",
+                "pricing": "Тарифтер",
+                "request_demo": "Өтінім қалдыру"
+            },
+            "preview": {
+                "title": [
+                    {"text": "Жаңа деңгейдегі", "color": "green"},
+                    {"text": "рекрутинг"}
+                ],
+                "subtitle": "tapHR арқылы вакансияларды 2 есе жылдам жабыңыз.",
+                "button": "Өтінім қалдыру",
+                "overview": {
+                    "path": "./images/preview/kz.webp",
+                    "candidates": {
+                        "name": "Кандидаттар",
+                        "cards": [
+                            {
+                                "name": "Амин Сергеев",
+                                "email": "amin.sergeev@gmail.com",
+                                "phone": "+7 777 264 96 72"
+                            },
+                            {
+                                "name": "Айбек Нурденов",
+                                "email": "aibek.nurdenov@gmail.com",
+                                "phone": "+7 777 823 44 67"
+                            },
+                            {
+                                "name": "Дарина Бубка",
+                                "email": "darina.bubka@gmail.com",
+                                "phone": "+7 777 356 66 66"
+                            }
+                        ]
+                    },
+                    "job_postings": {
+                        "name": "Вакансиялар",
+                        "table": {
+                            "columns": [
+                                "Қызмет атауы",
+                                "Аймақ",
+                                "Бөлім",
+                                "Өтінімдер"
+                            ],
+                            "rows": [
+                                {
+                                    "title": "Сатылым менеджері",
+                                    "region": "Астана",
+                                    "department": "Сатылым"
+                                },
+                                {
+                                    "title": "UX/UI дизайнері",
+                                    "region": "Алматы",
+                                    "department": "IT"
+                                },
+                                {
+                                    "title": "Бэкенд әзірлеушісі",
+                                    "region": "Шымкент",
+                                    "department": "IT"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "partners_section": {
+                "title": "Біздің серіктестер"
+            },
+            "features_section": {
+                "title": "tapHR арқылы не істей аласыз",
+                "subtitle": "Жұмысқа қабылдаудың әр кезеңіндегі сіздің көмекшіңіз",
+                "features": [
+                    {
+                        "title": [
+                            "Бірнеше басу арқылы",
+                            "вакансия құрыңыз"
+                        ],
+                        "description": "AI сіз үшін вакансия құрады, қажетті кандидаттарды тартатын ең тиімді мәтіндерді таңдап береді.",
+                        "infographics": {
+                            "path": "./images/features/1_kz.webp"
+                        }
+                    },
+                    {
+                        "title": "Барлық жұмыс сайттарын қамтыңыз",
+                        "description": "tapHR вакансияңызды негізгі жұмыс іздеу сайттарында жариялап, барлық жауаптарды бір жерге жинайды, осылайша қолмен өңдеуге уақыт жоғалтпайсыз.",
+                        "infographics": {
+                            "path": "./images/features/2_kz.webp"
+                        }
+                    },
+                    {
+                        "title": "Жұмысқа алу процесін бақылауда ұстаңыз",
+                        "description": "Жұмысқа қабылдау кезеңдерін өз процестеріңізге бейімдеп, кандидаттарды жылдам іріктеу үшін әр қадамды нақты уақытта бақылаңыз.",
+                        "infographics": {
+                            "path": "./images/features/3_kz.webp"
+                        }
+                    },
+                    {
+                        "title": "Уақытыңызды үнемдейтін ұсыныстар",
+                        "description": "Платформа резюмелер мен вакансия талаптарын автоматты түрде талдап, ең үздік кандидаттарды санаулы секунд ішінде таңдауға көмектеседі.",
+                        "button": "Өтінім қалдыру",
+                        "infographics": {
+                            "path": "./images/features/4_kz.webp"
+                        }
+                    }
+                ]
+            },
+            "call_to_action_section": {
+                "title": "Жұмысқа алу процесін жылдамдатыңыз!",
+                "button": "Өтінім қалдыру"
+            },
+            "why_choose_us_section": {
+                "title": "tapHR құндылықтары",
+                "subtitle": "компаниялар мен рекрутерлер үшін",
+                "benefits": [
+                    {
+                        "title": "Жұмысқа алуды жеделдету",
+                        "description": "Вакансияларды тезірек жауып, маңызды істерге уақыт босатыңыз."
+                    },
+                    {
+                        "title": "Шығындарды азайту",
+                        "description": "Рутинді операцияларды азайту және жүйеленген процестердің арқасында қызметкерлерді іріктеу бюджетін оңтайландырыңыз."
+                    },
+                    {
+                        "title": "Толық ашықтық",
+                        "description": "Кандидаттардың статус өзгерістерін бақылаңыз және тапсырыс берушіге қолжетімділікті қамтамасыз етіңіз."
+                    },
+                    {
+                        "title": "Компанияның брендін нығайту",
+                        "description": "Мықты кандидаттарды бірінші болып жұмысқа алыңыз."
+                    }
+                ]
+            },
+            "pricing_section": {
+                "title": "Әр командаға арналған тарифтер",
+                "subtitle": "Бизнесіңіздің қажеттіліктеріне сәйкес жоспарды таңдаңыз",
+                "billing_options": [
+                    {
+                        "text": "Жылдық",
+                        "subtext": "20% үнемдеңіз"
+                    },
+                    {
+                        "text": "Айлық"
+                    }
+                ],
+                "pricing_models": [
+                    {
+                        "name": "Стандарт",
+                        "includes_title": "Тарифтің ішінде:",
+                        "price_per": "/ай",
+                        "price_sign": "₸",
+                        "price_value": "29 500",
+                        "includes": [
+                            "2 пайдаланушыға дейін",
+                            ["Жұмыс сайттарымен", "интеграция"],
+                            "Мансаптық сайт",
+                            "AI ұсыныстары",
+                            "Хаттар шаблондары",
+                            ["Резюмелерді AI арқылы", "өңдеу"]
+                        ],
+                        "button": "Жоспарды таңдау"
+                    },
+                    {
+                        "name": "Премиум",
+                        "includes_title": "Тарифтің ішінде:",
+                        "price_per": "/ай",
+                        "price_sign": "₸",
+                        "price_value": "70 000",
+                        "includes": [
+                            "“Стандарт” тарифі",
+                            "4 пайдаланушыға дейін",
+                            "Сұхбаттарды жоспарлау",
+                            "WhatsApp боты",
+                            "Кандидаттарды тестілеу",
+                            "Видео сұхбат"
+                        ],
+                        "button": "Жоспарды таңдау"
+                    },
+                    {
+                        "name": "Корпоративтік",
+                        "price_per": "Жеке баға",
+                        "description": [
+                            "Индивидуалды тариф, ең көп мүмкіндіктер береді.",
+                            "Шарттар мен баға тапсырыс берушімен талқыланады."
+                        ],
+                        "button": "Бізбен байланысыңыз"
+                    }
+                ]
+            },
+            "demo_booking_section": {
+                "title": "Жеке демонстрацияға тапсырыс беріңіз",
+                "subtitle": "Өтінім қалдырыңыз — біз сізге tapHR қалай көмектесетінін көрсетеміз.",
+                "form_fields": {
+                    "name": "Есіміңіз",
+                    "company": "Компания атауы",
+                    "phone": "+7(___)___-__-__"
+                },
+                "button": "Өтінім қалдыру",
+                "privacy_note": [
+                    "Форманы жіберу арқылы мен жеке деректерімді tapHR <s>құпиялық саясатына</s> сәйкес өңдеуге келісімімді беремін."
+                ]
+            },
+            "footer": {
+                "links": [
+                    "Құпиялық саясаты",
+                    "Жария оферта"
+                ],
+                "menu": {
+                    "name": "Меню",
+                    "options": [
+                        "Шешімдер",
+                        "Құндылықтар",
+                        "Тарифтер"
+                    ]
+                },
+                "contacts": {
+                    "name" : "Байланыс",
+                    "email": "sales@tapHR.kz",
+                    "phone": "+7 (771) 758 35 33",
+                    "location": "Қазақстан, Астана қ."
+                },
+                "social_media": "Әлеуметтік желілер",
+                "copyright": "© tapHR 2025. Барлық құқықтар қорғалған."
+            }
+        }
+    },
+    "ru": {
+        "desktop": {
+            "navigation": {
+                "features": "Функции",
+                "why_us": "Почему мы",
+                "pricing": "Цены",
+                "sign_in": "Войти",
+                "request_demo": "Оставить заявку"
+            },
+            "preview": {
+                "title": [
+                    {"text": "Рекрутинг"},
+                    {"text": "нового уровня", "color": "green"}
+                ],
+                "subtitle": "Автоматизируйте найм и закрывайте вакансии в 2 раза быстрее с tapHR.",
+                "button": "Оставить заявку",
+                "overview": {
+                    "path": "./images/preview/ru.webp",
+                    "candidates": {
+                        "name": "Кандидаты",
+                        "cards": [
+                            {
+                                "name": "Софи Дюбуа",
+                                "email": "sophie.dubois@gmail.com",
+                                "phone": "+33 628 45-73-92"
+                            },
+                            {
+                                "name": "Джейсон Хуан",
+                                "email": "jensen.h@gmail.com",
+                                "phone": "+62 811-2754-6539"
+                            },
+                            {
+                                "name": "Джейсон Ли",
+                                "email": "j.lee@gmail.com",
+                                "phone": "+1 415-555-2747"
+                            }
+                        ]
+                    },
+                    "job_postings": {
+                        "name": "Вакансии",
+                        "table": {
+                            "columns": [
+                                "Название должности",
+                                "Регион",
+                                "Отдел",
+                                "Заявки"
+                            ],
+                            "rows": [
+                                {
+                                    "title": "Менеджер по продажам",
+                                    "region": "Берлин",
+                                    "department": "Продажи"
+                                },
+                                {
+                                    "title": "UX/UI дизайнер",
+                                    "region": "Лиссабон",
+                                    "department": "ИТ"
+                                },
+                                {
+                                    "title": "Backend разработчик",
+                                    "region": "Нью-Йорк",
+                                    "department": "ИТ"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "partners_section": {
+                "title": "Наши партнёры"
+            },
+            "features_section": {
+                "title": "Что вы сможете с tapHR",
+                "subtitle": "Ваш помощник на каждом этапе найма",
+                "features": [
+                    {
+                        "title": [
+                            "Сформируйте вакансию",
+                            "за несколько кликов"
+                        ],
+                        "description": "AI создаст вакансию за вас, подобрав оптимальные формулировки, которые привлекут нужных кандидатов.",
+                        "infographics": {
+                            "path": "./images/features/1_ru.webp"
+                        }
+                    },
+                    {
+                        "title": "Охватите все площадки одновременно",
+                        "description": "tapHR разместит вакансию на ключевых сайтах по поиску работы и соберёт все отклики в одном месте, чтобы вы не тратили время на ручную обработку.",
+                        "infographics": {
+                            "path": "./images/features/2_ru.webp"
+                        }
+                    },
+                    {
+                        "title": "Полный контроль над воронкой найма",
+                        "description": "Настраивайте этапы найма под свои процессы и контролируйте каждый шаг воронки в реальном времени, чтобы ускорить подбор кандидатов.",
+                        "infographics": {
+                            "path": "./images/features/3_ru.webp"
+                        }
+                    },
+                    {
+                        "title": "Рекомендации, которые экономят ваше время",
+                        "description": "Платформа автоматически анализирует резюме и требования вакансии, помогая выбрать подходящего кандидата за считанные секунды.",
+                        "button": "Оставить заявку",
+                        "infographics": {
+                            "path": "./images/features/4_ru.webp"
+                        }
+                    }
+                ]
+            },
+            "additional_features_section": {
+                "title": "Больше, чем просто CRM",
+                "subtitle": "Все инструменты для эффективного найма — в одном месте.",
+                "tools": [
+                    {
+                        "title": "Единая база кандидатов",
+                        "description": "Забудьте о хаосе файлов — все данные в одном месте. Находите нужных кандидатов мгновенно и отслеживайте их историю.",
+                        "path": "./images/features/5_ru.webp"
+                    },
+                    {
+                        "title": "Быстрая коммуникация",
+                        "description": "Используйте готовые шаблоны для разных этапов найма, отправляйте письма и сообщения в мессенджерах, сохраняя корпоративный тон и профессионализм.",
+                        "path": "./images/features/6_ru.webp"
+                    },
+                    {
+                        "title": "Карьерная страница",
+                        "description": "Создайте уникальный стиль для вашей компании. Привлекайте кандидатов и отслеживайте отклики на одной платформе.",
+                        "path": "./images/features/7_ru.webp"
+                    }
+                ]
+            },
+            "call_to_action_section": {
+                "title": "Ускорьте свой найм уже сегодня!",
+                "button": "Оставить заявку"
+            },
+            "why_choose_us_section": {
+                "title": "Ценность tapHR",
+                "subtitle": "для компаний и рекрутеров",
+                "benefits": [
+                    {
+                        "title": "Ускорение найма",
+                        "description": "Закрывайте вакансии быстрее и освобождайте время для важного."
+                    },
+                    {
+                        "title": "Снижение затрат",
+                        "description": "Оптимизируйте бюджет на подбор персонала благодаря упорядоченным процессам и сокращению рутинных операций."
+                    },
+                    {
+                        "title": "Абсолютная прозрачность",
+                        "description": "Отслеживайте изменения статусов кандидатов в воронке и предоставляйте доступ заказчику."
+                    },
+                    {
+                        "title": "Укрепляйте бренд компании",
+                        "description": "Выделяйтесь среди конкурентов и привлекайте сильных кандидатов первыми."
+                    }
+                ]
+            },
+            "pricing_section": {
+                "title": "Тарифы для каждой команды",
+                "subtitle": "Выберите план в соответствии с потребностями вашего бизнеса",
+                "billing_options": [
+                    {
+                        "text": "Год",
+                        "subtext": "Экономия 20%"
+                    },
+                    {
+                        "text": "Месяц"
+                    }
+                ],
+                "pricing_models": [
+                    {
+                        "name": "Стандарт",
+                        "includes_title": "Стандартный план включает:",
+                        "price_per": "/мес",
+                        "price_sign": "₸",
+                        "price_value": "29 500",
+                        "includes": [
+                            "До 2-х пользователей",
+                            "Интеграция с джоб бордами",
+                            "Карьерный сайт",
+                            "Рекомендации от ИИ",
+                            "Шаблоны сообщений",
+                            "ИИ-обработка резюме"
+                        ],
+                        "button": "Выбрать план"
+                    },
+                    {
+                        "name": "Премиум",
+                        "includes_title": "Премиум план включает:",
+                        "price_per": "/мес",
+                        "price_sign": "₸",
+                        "price_value": "70 000",
+                        "includes": [
+                            "Включает тариф “Стандарт”",
+                            "До 4-х пользователей",
+                            "Планирование интервью",
+                            "Whatsapp бот",
+                            "Тестирование кандидатов",
+                            "Видеособеседование"
+                        ],
+                        "button": "Выбрать план"
+                    },
+                    {
+                        "name": "Корпоративный",
+                        "price_per": "Индивидуальная цена",
+                        "description": [
+                            "Индивидуальный тариф, больше возможностей.",
+                            "Условия и цена обсуждаются с заказчиком."
+                        ],
+                        "button": "Связаться с нами"
+                    }
+                ]
+            },
+            "demo_booking_section": {
+                "title": "Закажите персональное демо",
+                "subtitle": "Оставьте заявку — мы покажем, как tapHR поможет улучшить ваш найм",
+                "form_fields": {
+                    "name": "Имя",
+                    "company": "Название компании",
+                    "phone": "+7(___)___-__-__"
+                },
+                "button": "Оставить заявку",
+                "privacy_note": [
+                    "Отправляя форму, я даю согласие на обработку персональных данных в соответствии с <s>политикой конфиденциальности</s> tapHR."
+                ]
+            },
+            "footer": {
+                "links": [
+                    "Политика конфиденциальности",
+                    "Публичная оферта"
+                ],
+                "quick_links": {
+                    "name": "Меню",
+                    "options": [
+                        "Решения",
+                        "Ценности",
+                        "Тарифы"
+                    ]
+                },
+                "contacts": {
+                    "name": "Контакты",
+                    "options": {
+                        "email": "sales@tapHR.kz",
+                        "phone": "+7 (771) 758 35 33",
+                        "location": "Казахстан, г. Астана"
+                    }
+                },
+                "social_media": "Социальные сети",
+                "copyright": "© tapHR 2025. Все права защищены."
+            }
+        },
+        "mobile": {
+            "navigation": {
+                "features": "Функции",
+                "why_us": "Почему мы",
+                "pricing": "Цены",
+                "request_demo": "Оставить заявку"
+            },
+            "preview": {
+                "title": [
+                    {"text": "Рекрутинг"},
+                    {"text": "нового уровня", "color": "green"}
+                ],
+                "subtitle": "Автоматизируйте найм и закрывайте вакансии в 2 раза быстрее с tapHR.",
+                "button": "Оставить заявку",
+                "overview": {
+                    "path": "./images/preview/ru.webp",
+                    "candidates": {
+                        "name": "Кандидаты",
+                        "cards": [
+                            {
+                                "name": "Софи Дюбуа",
+                                "email": "sophie.dubois@gmail.com",
+                                "phone": "+33 628 45-73-92"
+                            },
+                            {
+                                "name": "Джейсон Хуан",
+                                "email": "jensen.h@gmail.com",
+                                "phone": "+62 811-2754-6539"
+                            },
+                            {
+                                "name": "Джейсон Ли",
+                                "email": "j.lee@gmail.com",
+                                "phone": "+1 415-555-2747"
+                            }
+                        ]
+                    },
+                    "job_postings": {
+                        "name": "Вакансии",
+                        "table": {
+                            "columns": [
+                                "Название должности",
+                                "Регион",
+                                "Отдел",
+                                "Заявки"
+                            ],
+                            "rows": [
+                                {
+                                    "title": "Менеджер по продажам",
+                                    "region": "Берлин",
+                                    "department": "Продажи"
+                                },
+                                {
+                                    "title": "UX/UI дизайнер",
+                                    "region": "Лиссабон",
+                                    "department": "ИТ"
+                                },
+                                {
+                                    "title": "Backend разработчик",
+                                    "region": "Нью-Йорк",
+                                    "department": "ИТ"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "partners_section": {
+                "title": "Наши партнёры"
+            },
+            "features_section": {
+                "title": "Что вы сможете с tapHR",
+                "subtitle": "Ваш помощник на каждом этапе найма",
+                "features": [
+                    {
+                        "title": [
+                            "Сформируйте вакансию",
+                            "за несколько кликов"
+                        ],
+                        "description": "AI создаст вакансию за вас, подобрав оптимальные формулировки, которые привлекут нужных кандидатов.",
+                        "infographics": {
+                            "path": "./images/features/1_ru.webp"
+                        }
+                    },
+                    {
+                        "title": "Охватите все площадки одновременно",
+                        "description": "tapHR разместит вакансию на ключевых сайтах по поиску работы и соберёт все отклики в одном месте, чтобы вы не тратили время на ручную обработку.",
+                        "infographics": {
+                            "path": "./images/features/2_ru.webp"
+                        }
+                    },
+                    {
+                        "title": "Полный контроль над воронкой найма",
+                        "description": "Настраивайте этапы найма под свои процессы и контролируйте каждый шаг воронки в реальном времени, чтобы ускорить подбор кандидатов.",
+                        "infographics": {
+                            "path": "./images/features/3_ru.webp"
+                        }
+                    },
+                    {
+                        "title": "Рекомендации, которые экономят ваше время",
+                        "description": "Платформа автоматически анализирует резюме и требования вакансии, помогая выбрать подходящего кандидата за считанные секунды.",
+                        "button": "Оставить заявку",
+                        "infographics": {
+                            "path": "./images/features/4_ru.webp"
+                        }
+                    }
+                ]
+            },
+            "call_to_action_section": {
+                "title": "Ускорьте свой найм уже сегодня!",
+                "button": "Оставить заявку"
+            },
+            "why_choose_us_section": {
+                "title": "Ценность tapHR",
+                "subtitle": "для компаний и рекрутеров",
+                "benefits": [
+                    {
+                        "title": "Ускорение найма",
+                        "description": "Закрывайте вакансии быстрее и освобождайте время для важного."
+                    },
+                    {
+                        "title": "Снижение затрат",
+                        "description": "Оптимизируйте бюджет на подбор персонала благодаря упорядоченным процессам и сокращению рутинных операций."
+                    },
+                    {
+                        "title": "Абсолютная прозрачность",
+                        "description": "Отслеживайте изменения статусов кандидатов в воронке и предоставляйте доступ заказчику."
+                    },
+                    {
+                        "title": "Укрепляйте бренд компании",
+                        "description": "Выделяйтесь среди конкурентов и привлекайте сильных кандидатов первыми."
+                    }
+                ]
+            },
+            "pricing_section": {
+                "title": "Тарифы для каждой команды",
+                "subtitle": "Выберите план в соответствии с потребностями вашего бизнеса",
+                "billing_options": [
+                    {
+                        "text": "Год",
+                        "subtext": "Экономия 20%"
+                    },
+                    {
+                        "text": "Месяц"
+                    }
+                ],
+                "pricing_models": [
+                    {
+                        "name": "Стандарт",
+                        "includes_title": "Стандартный план включает:",
+                        "price_per": "/мес",
+                        "price_sign": "₸",
+                        "price_value": "29 500",
+                        "includes": [
+                            "До 2-х пользователей",
+                            ["Интеграция", "с джоб бордами"],
+                            "Карьерный сайт",
+                            "Рекомендации от ИИ",
+                            "Шаблоны сообщений",
+                            "ИИ-обработка резюме"
+                        ],
+                        "button": "Выбрать план"
+                    },
+                    {
+                        "name": "Премиум",
+                        "includes_title": "Премиум план включает:",
+                        "price_per": "/мес",
+                        "price_sign": "₸",
+                        "price_value": "70 000",
+                        "includes": [
+                            "Включает тариф “Стандарт”",
+                            "До 4-х пользователей",
+                            "Планирование интервью",
+                            "Whatsapp бот",
+                            "Тестирование кандидатов",
+                            "Видеособеседование"
+                        ],
+                        "button": "Выбрать план"
+                    },
+                    {
+                        "name": "Корпоративный",
+                        "price_per": "Индивидуально",
+                        "description": [
+                            "Индивидуальный тариф, который даёт максимум возможностей.",
+                            "Условия и цена обсуждаются с заказчиком."
+                        ],
+                        "button": "Связаться с нами"
+                    }
+                ]
+            },
+            "demo_booking_section": {
+                "title": "Закажите персональное демо",
+                "subtitle": "Оставьте заявку — мы покажем, как tapHR поможет улучшить ваш найм",
+                "form_fields": {
+                    "name": "Имя",
+                    "company": "Название компании",
+                    "phone": "+7(___)___-__-__"
+                },
+                "button": "Оставить заявку",
+                "privacy_note": [
+                    "Отправляя форму, я даю согласие на обработку персональных данных в соответствии с <s>политикой конфиденциальности</s> tapHR."
+                ]
+            },
+            "footer": {
+                "links": [
+                    "Политика конфиденциальности",
+                    "Публичная оферта"
+                ],
+                "quick_links": {
+                    "name": "Меню",
+                    "options": [
+                        "Решения",
+                        "Ценности",
+                        "Тарифы"
+                    ]
+                },
+                "contacts": {
+                    "name": "Контакты",
+                    "options": {
+                        "email": "sales@tapHR.kz",
+                        "phone": "+7 (771) 758 35 33",
+                        "location": "Казахстан, г. Астана"
+                    }
+                },
+                "social_media": "Социальные сети",
+                "copyright": "© tapHR 2025. Все права защищены."
+            }
+        }
+    }
+}

@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./images/favicon.ico">
+    <title>TapHR</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="description" content="Находите и нанимайте лучших специалистов легко и эффективно с tapHR. Автоматизируйте найм сегодня — закажите демо!">
+    <meta name="keywords" content="рекрутинг, автоматизация, HR, подбор персонала, найм сотрудников, AI рекрутинг">
+    <meta name="author" content="TapHR">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://taphr.kz/">
+    <meta property="og:title" content="TapHR - платформа автоматизации рекрутинга">
+    <meta property="og:description" content="Находите и нанимайте лучших специалистов легко и эффективно с tapHR. Автоматизируйте найм сегодня — закажите демо!">
+    <meta property="og:image" content="images/og_preview.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter Meta Tags -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://taphr.kz/">
+    <meta property="twitter:title" content="TapHR - платформа автоматизации рекрутинга">
+    <meta property="twitter:description" content="Находите и нанимайте лучших специалистов легко и эффективно с tapHR. Автоматизируйте найм сегодня — закажите демо!">
+    <meta property="twitter:image" content="images/og_preview.png">
+
+    <!-- Canonical Tag -->
+    <link rel="canonical" href="https://taphr.kz/ru">
+
+    <script src="/scripts/redirect.js"></script>
+
+    <script src="/scripts/yandexMetrics.js" defer></script>
+    <script src="/scripts/partners.js" defer></script>
+    <script src="/scripts/main.js"  type="module" defer></script>
+    <script src="/scripts/sectionsObserver.js" defer></script>
+    <script src="/scripts/why_choose_us.js" defer></script>
+    <script src="/scripts/navigation.js" defer></script>
+    <link rel="stylesheet" href="/styles.css" />
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <!-- Top Section with Logo and Close Button -->
+        <input id="menu-checkbox" type="checkbox" />
+        <nav aria-label="Main Navigation" id="main-nav">
+            <a href="#" id="logo-link" title="Go to tapHR Homepage" itemprop="url">
+                <img alt="tapHR - AI Recruitment Platform Logo" id="logo" src="./images/logo.png" loading="lazy" />
+            </a>
+            <label aria-label="Toggle Menu" for="menu-checkbox" id="menu-toggle">
+                <span id="open-icon">
+                    <svg fill="none" height="18" viewbox="0 0 22 18" width="22" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1H11M1 9H21M11 17H21" stroke="#151813" stroke-linecap="round" stroke-width="2">
+                        </path>
+                    </svg>
+                </span>
+                <span id="close-icon">
+                    <svg fill="none" height="20" viewbox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.4862 1.51573L1.51562 18.4863M18.4862 18.4862L1.51562 1.51562" stroke="#151813"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                    </svg>
+                </span>
+            </label>
+        </nav>
+    
+        <!-- Bottom popup section -->
+        <aside id="aside">
+            <!-- Navigation Links -->
+            <nav aria-label="Secondary Navigation" id="second-nav">
+                <ul>
+                    <li><a data-lang="navigation.features" href="#features" title="View Features">Функции</a></li>
+                    <li><a data-lang="navigation.why_us" href="#why-choose-us-section" title="Why Choose Us?">Почему мы</a></li>
+                    <li><a data-lang="navigation.pricing" href="#pricing" title="View Pricing">Цены</a></li>
+                </ul>
+            </nav>
+            <hr />
+    
+            <!-- Call-to-Action Section -->
+            <section aria-label="Site Navigation" class="nav-container" id="site-navigation">
+                <button data-lang="navigation.sign_in" id="second-nav-login" title="Sign In to tapHR">Войти</button>
+                
+                <!-- CTA Button -->
+                <button id="cta-button" class="demo-navigation" title="Request a Demo">
+                    <span data-lang="navigation.request_demo">Оставить заявку</span>
+                    <svg fill="none" height="20" viewbox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.83301 14.1667L14.1663 5.83334M14.1663 5.83334H5.83301M14.1663 5.83334V14.1667"
+                            stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                    </svg>
+                </button>
+    
+                <!-- Language Switcher -->
+                <nav aria-label="Language Selector" id="language-switcher">
+                    <div class="custom-select">
+                        <button aria-haspopup="listbox" aria-label="Select Language" id="language-switcher-dropdown">
+                            <span>Рус</span>
+                            <svg fill="none" height="6" id="language-switcher-when-closed" viewbox="0 0 12 6" width="12"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L6 5L11 1" stroke="#151813" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5"></path>
+                            </svg>
+                            <svg fill="none" height="6" id="language-switcher-when-open" viewbox="0 0 12 6" width="12"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11 5L6 1L0.999999 5" stroke="#151813" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="1.5"></path>
+                            </svg>
+                        </button>
+                        <ul aria-labelledby="language-switcher-dropdown" class="hide-popup" id="language-switcher-popup" role="listbox">
+                            <li data-value="kz" role="option">Қаз</li>
+                            <li class="active-select-language" data-value="ru" role="option">Рус</li>
+                            <li data-value="en" role="option">Eng</li>
+                        </ul>
+                    </div>
+                    <button id="lang-button_kz" value="kz" aria-label="Switch to Kazakh">KZ</button>
+                    <button id="lang-button_ru" value="ru" aria-label="Switch to Russian">RU</button>
+                    <button id="lang-button_en" value="en" aria-label="Switch to English">EN</button>
+                </nav>
+            </section>
+        </aside>
+    </header>
+    <main>
+        <!-- Preview Section -->
+        <section aria-labelledby="preview-title" id="preview" itemscope itemtype="https://schema.org/SoftwareApplication">
+            <!-- Badge with descriptive text -->
+            <div aria-label="AI-powered recruitment automation" id="preview-badge">
+                <svg aria-labelledby="badge-title" fill="none" height="16" role="img" viewbox="0 0 12 16" width="12"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <title id="badge-title">AI-powered badge</title>
+                    <path
+                        d="M4.49335 5.599C5.01327 6.6368 5.85578 7.47932 6.89359 7.99923C5.85578 8.51915 5.01327 9.36166 4.49335 10.3995C3.97343 9.36166 3.13092 8.51915 2.09312 7.99923C3.13092 7.47931 3.97343 6.6368 4.49335 5.599Z"
+                        fill="#0C0B1E" stroke="#0C0B1E" stroke-width="1.65003"></path>
+                    <path
+                        d="M9.25544 3.05716C9.42767 2.91801 9.58471 2.76097 9.72386 2.58874C9.86301 2.76097 10.02 2.91801 10.1923 3.05716C10.02 3.19631 9.86301 3.35335 9.72386 3.52558C9.58471 3.35335 9.42767 3.19631 9.25544 3.05716Z"
+                        fill="#0C0B1E" stroke="#0C0B1E" stroke-width="1.65003"></path>
+                    <path
+                        d="M9.25544 12.9432C9.42767 12.804 9.58471 12.647 9.72386 12.4748C9.86301 12.647 10.02 12.804 10.1923 12.9432C10.02 13.0823 9.86301 13.2394 9.72386 13.4116C9.58471 13.2394 9.42767 13.0823 9.25544 12.9432Z"
+                        fill="#0C0B1E" stroke="#0C0B1E" stroke-width="1.65003"></path>
+                </svg>
+                <span id="animated-text">AI-powered</span>
+            </div>
+        
+            <!-- Primary Heading -->
+            <h1 data-lang="preview.title" id="preview-title" itemprop="name">
+                Рекрутинг <span class="preview-title-green">нового уровня</span>
+            </h1>
+        
+            <!-- Subtitle -->
+            <p data-lang="preview.subtitle" id="preview-subtitle" itemprop="description">
+                Автоматизируйте найм и закрывайте вакансии в 2 раза быстрее с tapHR.
+            </p>
+        
+            <!-- Call-to-Action Button -->
+            <a aria-label="Request a demo of tapHR's recruitment tools" class="btn btn-primary" href="#demo"
+               id="preview-button" itemprop="applicationCategory">
+                <span data-lang="navigation.request_demo">Оставить заявку</span>
+                <svg aria-labelledby="cta-icon-title" fill="none" height="20" role="img" viewbox="0 0 21 20" width="21"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <title id="cta-icon-title">Arrow indicating demo request</title>
+                    <path d="M6.33301 14.1666L14.6663 5.83331M14.6663 5.83331H6.33301M14.6663 5.83331V14.1666"
+                        stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                </svg>
+            </a>
+        
+            <!-- Image -->
+            <figure id="preview-image">
+                <img 
+                    id="overview"
+                    data-lang="preview.overview.path"
+                    src="./images/preview/ru.webp"
+                    alt="Screenshot of tapHR AI-powered recruitment automation tools"
+                    loading="lazy"
+                    itemprop="screenshot"
+                />
+                <figcaption>AI-powered recruitment automation by tapHR</figcaption>
+            </figure>
+        </section>
+        
+        <!-- Partners Section -->
+        <section aria-labelledby="partners-title" class="fade-section" id="partners">
+            <h2 data-lang="partners_section.title" id="partners-title">Наши партнёры</h2>
+            <div id="partners-wrapper">
+                <ul class="partners-logos">
+                    <!-- Partner 1 -->
+                    <li itemscope itemtype="https://schema.org/Organization">
+                    
+                        <img src="./images/partners/image1.webp" alt="Nazarbayev University" itemprop="logo"
+                            loading="lazy" width="150" height="50" />
+                        <meta itemprop="name" content="Nazarbayev University" />
+                    </li>
+                    
+                    <!-- Partner 2 -->
+                    <li itemscope itemtype="https://schema.org/Organization">
+                    
+                        <img src="./images/partners/image2.webp" alt="Astana Hub" itemprop="logo" loading="lazy" width="150"
+                            height="50" />
+                        <meta itemprop="name" content="Astana Hub" />
+                    </li>
+                    
+                    <!-- Partner 3 -->
+                    <li itemscope itemtype="https://schema.org/Organization">
+                    
+                        <img src="./images/partners/image3.webp" alt="Тиын" itemprop="logo" loading="lazy" width="150" height="50" />
+                        <meta itemprop="name" content="Тиын" />
+                    </li>
+                    
+                    <!-- Partner 4 -->
+                    <li itemscope itemtype="https://schema.org/Organization">
+                    
+                        <img src="./images/partners/image4.webp" alt="Set Group" itemprop="logo" loading="lazy" width="150"
+                            height="50" />
+                        <meta itemprop="name" content="Set Group" />
+                    </li>
+                    
+                    <!-- Partner 5 -->
+                    <li itemscope itemtype="https://schema.org/Organization">
+                    
+                        <img src="./images/partners/image5.webp" alt="Polymetal" itemprop="logo" loading="lazy" width="150"
+                            height="50" />
+                        <meta itemprop="name" content="Polymetal" />
+                    </li>
+                    
+                    <!-- Partner 6 -->
+                    <li itemscope itemtype="https://schema.org/Organization">
+                    
+                        <img src="./images/partners/image6.webp" alt="Bosch" itemprop="logo" loading="lazy" width="150" height="50" />
+                        <meta itemprop="name" content="Bosch" />
+                    </li>
+                    
+                    <!-- Partner 7 -->
+                    <li itemscope itemtype="https://schema.org/Organization">
+                    
+                        <img src="./images/partners/image7.webp" alt="Raiffeisen Bank" itemprop="logo" loading="lazy"
+                            width="150" height="50" />
+                        <meta itemprop="name" content="Raiffeisen Bank" />
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section aria-labelledby="features-title" id="features">
+            <h2 class="fade-section" data-lang="features_section.title" id="features-title">Что вы сможете с tapHR</h2>
+            <p class="fade-section" data-lang="features_section.subtitle" id="features-subtitle">Ваш помощник на каждом этапе найма</p>
+            
+            <!-- Feature 1 -->
+            <article class="feature fade-section" id="feature1" itemscope itemtype="https://schema.org/Service">
+                <h3 itemprop="serviceType">
+                    <span data-lang="features_section.features.0.title">Сформируйте вакансию за несколько кликов</span>
+                </h3>
+                <p data-lang="features_section.features.0.description" itemprop="description">
+                    AI создаст вакансию за вас, подобрав оптимальные формулировки, которые привлекут нужных кандидатов.
+                </p>
+                <figure id="feature1-image">
+                    <img alt="Visual of job posting generator tool powered by tapHR AI"
+                         itemprop="image"
+                         loading="lazy"
+                         data-lang="features_section.features.0.infographics.path"
+                         src="./images/features/1_ru.webp" />
+                </figure>
+            </article>
+            <!-- Feature 2 -->
+            <article class="feature fade-section" id="feature2" itemscope itemtype="https://schema.org/Service">
+                <h3 itemprop="serviceType">
+                    <span data-lang="features_section.features.1.title">Охватите все площадки одновременно</span>
+                </h3>
+                <p data-lang="features_section.features.1.description" itemprop="description">
+                    tapHR разместит вакансию на ключевых сайтах по поиску работы и соберёт все отклики в одном месте.
+                </p>
+                <figure>
+                    <img alt="Interface showing job platform integrations for tapHR"
+                         itemprop="image"
+                         loading="lazy"
+                         data-lang="features_section.features.1.infographics.path"
+                         src="./images/features/2_ru.webp" />
+                </figure>
+            </article>
+            <!-- Feature 3 -->
+            <article class="feature fade-section" id="feature3" itemscope itemtype="https://schema.org/Service">
+                <h3 itemprop="serviceType">
+                    <span data-lang="features_section.features.2.title">Полный контроль над воронкой найма</span>
+                </h3>
+                <p data-lang="features_section.features.2.description" itemprop="description">
+                    Настраивайте этапы найма под свои процессы и контролируйте каждый шаг воронки в реальном времени.
+                </p>
+                <figure>
+                    <img alt="Dashboard view of recruitment funnel in tapHR"
+                         itemprop="image"
+                         loading="lazy"
+                         data-lang="features_section.features.2.infographics.path"
+                         src="./images/features/3_ru.webp" />
+                </figure>
+            </article>
+            <!-- Feature 4 -->
+            <article class="feature fade-section" id="feature4" itemscope itemtype="https://schema.org/Service">
+                <h3 itemprop="serviceType">
+                    <span data-lang="features_section.features.3.title">Рекомендации, которые экономят ваше время</span>
+                </h3>
+                <p data-lang="features_section.features.3.description" itemprop="description">
+                    Платформа анализирует резюме и требования вакансии, помогая выбрать подходящего кандидата за считанные секунды.
+                </p>
+                <button data-lang="features_section.features.3.button" itemprop="url" class="demo-navigation"
+                    >
+                    Оставить заявку
+                </button>
+                <figure>
+                    <img alt="Visual representation of candidate recommendation system in tapHR"
+                         itemprop="image"
+                         loading="lazy"
+                         data-lang="features_section.features.3.infographics.path"
+                         src="./images/features/4_ru.webp" />
+                </figure>
+            </article>
+        </section>
+        <!-- Additional Features Section -->
+        <section aria-labelledby="additional-features-title" id="additional-features">
+            <!-- Title -->
+            <h2 class="fade-section" data-lang="additional_features_section.title" id="additional-features-title">
+                Больше, чем просто CRM</h2>
+            <p class="fade-section" data-lang="additional_features_section.subtitle" id="additional-features-subtitle">
+                Все инструменты для эффективного найма — в одном месте.</p>
+            <!-- Centralized Candidate Management -->
+            <article aria-describedby="feature-centralized-description" class="additional-feature-card fade-section"
+                id="feature-centralized-management" itemscope itemtype="https://schema.org/Service">
+                <h3 data-lang="additional_features_section.tools.0.title" itemprop="serviceType">Единая база кандидатов
+                </h3>
+                <p data-lang="additional_features_section.tools.0.description" id="feature-centralized-description"
+                    itemprop="description">Забудьте о хаосе файлов — все данные в одном месте. Находите нужных
+                    кандидатов мгновенно и отслеживайте их историю.</p>
+                <figure>
+                    <img alt="Illustration of centralized candidate management tool"
+                        data-lang="additional_features_section.tools.0.path" itemprop="image" loading="lazy"
+                        src="./images/features/5_ru.webp" />
+                </figure>
+            </article>
+            <!-- Seamless Communication -->
+            <article aria-describedby="feature-seamless-description" class="additional-feature-card fade-section"
+                id="additional-feature-card2" itemscope itemtype="https://schema.org/Service">
+                <h3 data-lang="additional_features_section.tools.1.title" itemprop="serviceType">Быстрая коммуникация
+                </h3>
+                <p data-lang="additional_features_section.tools.1.description" id="feature-seamless-description"
+                    itemprop="description">Используйте готовые шаблоны для разных этапов найма, отправляйте письма и
+                    сообщения в мессенджерах, сохраняя корпоративный тон и профессионализм.</p>
+                <figure>
+                    <img alt="Illustration of seamless communication tool for hiring"
+                        data-lang="additional_features_section.tools.1.path" itemprop="image" loading="lazy"
+                        src="./images/features/6_ru.webp" />
+                </figure>
+            </article>
+            <!-- Branded Career Page -->
+            <article aria-describedby="feature-branded-description" class="additional-feature-card fade-section"
+                id="additional-feature-card3" itemscope itemtype="https://schema.org/Service">
+                <h3 data-lang="additional_features_section.tools.2.title" itemprop="serviceType">Карьерная страница</h3>
+                <p data-lang="additional_features_section.tools.2.description" id="feature-branded-description"
+                    itemprop="description">Создайте уникальный стиль для вашей компании. Привлекайте кандидатов и
+                    отслеживайте отклики на одной платформе.</p>
+                <figure>
+                    <img alt="Illustration of branded career page design tool"
+                        data-lang="additional_features_section.tools.2.path" itemprop="image" loading="lazy"
+                        src="./images/features/7_ru.webp" />
+                </figure>
+            </article>
+        </section>
+
+        <!-- Call to Action -->
+        <section aria-labelledby="call-to-action-title" class="fade-section" id="call-to-action" itemscope
+            itemtype="https://schema.org/Action">
+            <!-- Title -->
+            <h2 id="call-to-action-title" itemprop="name">
+                <span data-lang="call_to_action_section.title">Ускорьте свой найм уже сегодня!</span>
+            </h2>
+            <!-- Button -->
+            <button aria-label="Click to get started with streamlined hiring today" class="btn btn-primary demo-navigation"
+                id="call-to-action-button" itemprop="target">
+                <span data-lang="call_to_action_section.button">Оставить заявку</span>
+                <svg aria-labelledby="cta-icon-title" fill="none" height="20" role="img" viewbox="0 0 20 20" width="20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <title id="cta-icon-title">Arrow indicating action to get started</title>
+                    <path d="M5.83301 14.1666L14.1663 5.83325M14.1663 5.83325H5.83301M14.1663 5.83325V14.1666"
+                        stroke="#151813" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                </svg>
+            </button>
+        </section>
+
+        <!-- Why Us Section -->
+        <section aria-labelledby="why-choose-us-title" class="fade-section" id="why-choose-us-section" itemscope
+            itemtype="https://schema.org/ItemList">
+            <!-- Section Title -->
+            <header>
+                <h2 data-lang="why_choose_us_section.title" id="why-choose-us-title" itemprop="name">Ценность tapHR</h2>
+                <p data-lang="why_choose_us_section.subtitle" id="why-choose-us-subtitle" itemprop="description">для
+                    компаний и рекрутеров</p>
+            </header>
+            <!-- Features List -->
+            <div id="why-choose-us-feature-container">
+                <ol id="why-choose-us-features">
+                    <!-- Feature 1 -->
+                    <li class="why-choose-us-feature" id="why-choose-us-feature1" itemscope
+                        itemtype="https://schema.org/ListItem">
+                        <meta content="1" itemprop="position">
+                        <figure>
+                            <img alt="Icon for faster hiring feature" itemprop="image" src="./images/icons/why_us1.svg" loading="lazy"/>
+                            <figcaption>
+                                <h3 data-lang="why_choose_us_section.benefits.0.title" itemprop="name">Ускорение найма
+                                </h3>
+                                <p itemprop="description">
+                                    <span data-lang="why_choose_us_section.benefits.0.description">Закрывайте вакансии
+                                        быстрее и освобождайте время для важного.</span>
+                                </p>
+                            </figcaption>
+                        </figure>
+                        </meta>
+                    </li>
+                    <!-- Feature 2 -->
+                    <li class="why-choose-us-feature" id="why-choose-us-feature2" itemscope
+                        itemtype="https://schema.org/ListItem">
+                        <meta content="2" itemprop="position">
+                        <figure>
+                            <img alt="Icon for cost savings feature" itemprop="image" src="./images/icons/why_us2.svg" loading="lazy"/>
+                            <figcaption>
+                                <h3 data-lang="why_choose_us_section.benefits.1.title" itemprop="name">Снижение затрат
+                                </h3>
+                                <p itemprop="description">
+                                    <span data-lang="why_choose_us_section.benefits.1.description">Оптимизируйте бюджет
+                                        на подбор персонала благодаря упорядоченным процессам и сокращению рутинных
+                                        операций.</span>
+                                </p>
+                            </figcaption>
+                        </figure>
+                        </meta>
+                    </li>
+                    <!-- Feature 3 -->
+                    <li class="why-choose-us-feature" id="why-choose-us-feature3" itemscope
+                        itemtype="https://schema.org/ListItem">
+                        <meta content="3" itemprop="position">
+                        <figure>
+                            <img alt="Icon for full transparency feature" itemprop="image"
+                                src="./images/icons/why_us3.svg" loading="lazy"/>
+                            <figcaption>
+                                <h3 data-lang="why_choose_us_section.benefits.2.title" itemprop="name">Абсолютная
+                                    прозрачность</h3>
+                                <p itemprop="description">
+                                    <span data-lang="why_choose_us_section.benefits.2.description">Отслеживайте
+                                        изменения статусов кандидатов в воронке и предоставляйте доступ
+                                        заказчику.</span>
+                                </p>
+                            </figcaption>
+                        </figure>
+                        </meta>
+                    </li>
+                    <!-- Feature 4 -->
+                    <li class="why-choose-us-feature" id="why-choose-us-feature4" itemscope
+                        itemtype="https://schema.org/ListItem">
+                        <meta content="4" itemprop="position">
+                        <figure>
+                            <img alt="Icon for stronger employer branding feature" itemprop="image"
+                                src="./images/icons/why_us4.svg" loading="lazy"/>
+                            <figcaption>
+                                <h3 data-lang="why_choose_us_section.benefits.3.title" itemprop="name">Укрепляйте бренд
+                                    компании</h3>
+                                <p itemprop="description">
+                                    <span data-lang="why_choose_us_section.benefits.3.description">Выделяйтесь среди
+                                        конкурентов и привлекайте сильных кандидатов первыми.</span>
+                                </p>
+                            </figcaption>
+                        </figure>
+                        </meta>
+                    </li>
+                </ol>
+                <!-- Navigation -->
+                <nav aria-label="Why Choose Us navigation" id="why-choose-us-nav">
+                    <a aria-label="Navigate to Faster hiring" class="current-slide" href="#why-choose-us-feature1"></a>
+                    <a aria-label="Navigate to Cost savings" href="#why-choose-us-feature2"></a>
+                    <a aria-label="Navigate to Full transparency" href="#why-choose-us-feature3"></a>
+                    <a aria-label="Navigate to Stronger employer branding" href="#why-choose-us-feature4"></a>
+                </nav>
+            </div>
+        </section>
+
+        <hr class="fade-section" id="between_why_and_price" />
+
+        <!-- Pricing Section -->
+        <section aria-labelledby="pricing-title" id="pricing" itemscope itemtype="https://schema.org/OfferCatalog">
+            <!-- Section Title -->
+            <header class="fade-section">
+                <h2 data-lang="pricing_section.title" id="pricing-title" itemprop="name">Тарифы для каждой команды</h2>
+                <p id="pricing-subtitle">
+                    <span data-lang="pricing_section.subtitle">Выберите план в соответствии с потребностями вашего
+                        бизнеса</span>
+                </p>
+            </header>
+            <!-- Billing Options -->
+            <div class="fade-section" id="pricing-badge">
+                <span class="price-specials" id="price-suitable">
+                    <span data-lang="pricing_section.billing_options.0.text" id="pricing-badge-annually">Год</span>
+                    <p data-lang="pricing_section.billing_options.0.subtext" id="pricing-annual-discount"
+                        itemprop="offers" itemscope itemtype="https://schema.org/Offer">Экономия 20%</p>
+                </span>
+                <span class="price-specials price-disactive" data-lang="pricing_section.billing_options.1.text"
+                    id="pricing-badge-monthly">Месяц</span>
+            </div>
+            <!-- Pricing Options -->
+            <div id="pricing-options">
+                <!-- Standard Plan -->
+                <article class="pricing-tier fade-section" id="pricing-tier-standard" itemscope itemprop="offers"
+                    itemtype="https://schema.org/Offer">
+                    <header class="pricing-tier-information">
+                        <img alt="Icon representing Standard Plan" itemprop="image" src="./images/icons/pricing1.svg" loading="lazy"/>
+                        <h3 data-lang="pricing_section.pricing_models.0.name" id="pricing-tier-standard-title"
+                            itemprop="name">Стандарт</h3>
+                        <p>
+                            <span class="pricing-price" content="29500"
+                                data-lang="pricing_section.pricing_models.0.price_value" id="price-standard-value"
+                                itemprop="price">29 500</span>
+                            <span class="pricing-price" content="KZT"
+                                data-lang="pricing_section.pricing_models.0.price_sign"
+                                itemprop="priceCurrency">₸</span>
+                            <span data-lang="pricing_section.pricing_models.0.price_per">/мес</span>
+                        </p>
+                        <button data-lang="pricing_section.pricing_models.0.button" itemprop="url" aria-label="Select Standard Plan" class="demo-navigation"
+                        >Выбрать план</button>
+                    </header>
+                    <h6 data-lang="pricing_section.pricing_models.0.includes_title">Стандартный план включает:</h6>
+                    <ul>
+                        <li data-lang="pricing_section.pricing_models.0.includes.0">До 2-х пользователей</li>
+                        <li data-lang="pricing_section.pricing_models.0.includes.1">Интеграция с джоб бордами</li>
+                        <li data-lang="pricing_section.pricing_models.0.includes.2">Карьерный сайт</li>
+                        <li data-lang="pricing_section.pricing_models.0.includes.3">Рекомендации от ИИ</li>
+                        <li data-lang="pricing_section.pricing_models.0.includes.4">Шаблоны сообщений</li>
+                        <li data-lang="pricing_section.pricing_models.0.includes.5">ИИ-обработка резюме</li>
+                    </ul>
+                </article>
+                <!-- Premium Plan -->
+                <article class="pricing-tier fade-section premium" id="pricing-tier-premium" itemscope itemprop="offers"
+                    itemtype="https://schema.org/Offer">
+                    <header class="pricing-tier-information pricing-tier-information-style2">
+                        <img alt="Icon representing Premium Plan" itemprop="image" src="./images/icons/pricing1.svg" loading="lazy"/>
+                        <h3 data-lang="pricing_section.pricing_models.1.name" id="pricing-tier-premium-title"
+                            itemprop="name">Премиум</h3>
+                        <p>
+                            <span class="pricing-price" content="70000"
+                                data-lang="pricing_section.pricing_models.1.price_value" id="price-premium-value"
+                                itemprop="price">70 000</span>
+                            <span class="pricing-price" content="KZT"
+                                data-lang="pricing_section.pricing_models.1.price_sign"
+                                itemprop="priceCurrency">₸</span>
+                            <span data-lang="pricing_section.pricing_models.1.price_per">/мес</span>
+                        </p>
+                        <button data-lang="pricing_section.pricing_models.1.button" itemprop="url" aria-label="Select Premium Plan" class="demo-navigation"
+                        >Выбрать план</button>
+                    </header>
+                    <h6 data-lang="pricing_section.pricing_models.1.includes_title">Премиум план включает:</h6>
+                    <ul>
+                        <li data-lang="pricing_section.pricing_models.1.includes.0">Включает тариф “Стандарт”</li>
+                        <li data-lang="pricing_section.pricing_models.1.includes.1">До 4-х пользователей</li>
+                        <li data-lang="pricing_section.pricing_models.1.includes.2">Планирование интервью</li>
+                        <li data-lang="pricing_section.pricing_models.1.includes.3">Whatsapp бот</li>
+                        <li data-lang="pricing_section.pricing_models.1.includes.4">Тестирование кандидатов</li>
+                        <li data-lang="pricing_section.pricing_models.1.includes.5">Видеособеседование</li>
+                    </ul>
+                </article>
+                <!-- Enterprise Plan -->
+                <article class="pricing-tier fade-section" id="pricing-tier-enterprise" itemscope itemprop="offers"
+                    itemtype="https://schema.org/Offer">
+                    <header class="pricing-tier-information pricing-tier-information-style3">
+                        <img alt="Icon representing Enterprise Plan" itemprop="image" loading="lazy"
+                            src="./images/icons/pricing1.svg" />
+                        <h3 data-lang="pricing_section.pricing_models.2.name" id="pricing-tier-enterprise-title"
+                            itemprop="name">Корпоративный</h3>
+                        <p>
+                            <strong data-lang="pricing_section.pricing_models.2.price_per"
+                                itemprop="price">Индивидуальная цена</strong>
+                        </p>
+                        <h6>
+                            <span data-lang="pricing_section.pricing_models.2.description">Индивидуальный тариф, больше
+                                возможностей. Условия и цена обсуждаются с заказчиком.</span>
+                        </h6>
+                    </header>
+                    <button data-lang="pricing_section.pricing_models.2.button" itemprop="url" aria-label="Contact us for Enterprise Plan" class="demo-navigation"
+                    >Связаться с нами</button>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section aria-labelledby="demo-title" class="fade-section" id="demo" itemscope
+            itemtype="https://schema.org/ContactPage">
+            <!-- Section Title -->
+            <header>
+                <h2 data-lang="demo_booking_section.title" id="demo-title" itemprop="headline">Закажите персональное
+                    демо</h2>
+                <p data-lang="demo_booking_section.subtitle" id="demo-subtitle" itemprop="description">Оставьте заявку —
+                    мы покажем, как tapHR поможет улучшить ваш найм</p>
+            </header>
+
+            <!-- Contact Form -->
+            <form action="/submit-demo" id="demo-form" itemprop="potentialAction" itemscope
+                itemtype="https://schema.org/SendAction" method="POST" novalidate>
+                <meta content="Request Demo Form" itemprop="name">
+                <input aria-required="true" autocomplete="off" data-lang="demo_booking_section.form_fields.name"
+                    id="form-name" itemprop="name" name="name" placeholder="Your name" required="" type="text" />
+                <input aria-required="true" autocomplete="off" data-lang="demo_booking_section.form_fields.company"
+                    id="form-company" name="company" placeholder="Company name" required="" type="text" />
+                <input aria-required="true" autocomplete="off" data-lang="demo_booking_section.form_fields.phone"
+                    id="form-phone" name="phone" placeholder="Your phone number" required="" type="tel" />
+                <button class="btn btn-primary" data-lang="demo_booking_section.button" itemprop="url"
+                    type="submit">Оставить заявку</button>
+                </meta>
+            </form>
+            <!-- Privacy Note -->
+            <p id="demo-privacy">
+                <span data-lang="demo_booking_section.privacy_note">Отправляя форму, я даю согласие на обработку
+                    персональных данных в соответствии с политикой конфиденциальности tapHR.</span>
+            </p>
+        </section>
+    </main>
+    <!-- Footer Section -->
+    <footer class="fade-section" id="footer" role="contentinfo" itemscope itemtype="https://schema.org/Corporation">
+        <img alt="tapHR official logo, your trusted recruitment partner" id="footer-logo" loading="lazy" itemprop="logo"
+            src="./images/icons/logo.svg" />
+        <!-- <a href="#footer" id="footer-doc1" title="Read Our Privacy Policy">
+            <span data-lang="footer.links.0">Политика конфиденциальности</span>
+        </a>
+        <a href="#footer" id="footer-doc2" title="Read Our Terms of Service">
+            <span data-lang="footer.links.1">Публичная оферта</span>
+        </a> -->
+        <nav id="footer-legal-links">
+            <ul>
+                <li>
+                    <a href="#" id="footer-doc1" title="Read Our Privacy Policy">
+                        <span data-lang="footer.links.0">Политика конфиденциальности</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" id="footer-doc2" title="Read Our Terms of Service">
+                        <span data-lang="footer.links.1">Публичная оферта</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <nav aria-label="Quick Links for Recruitment Solutions" id="footer-quicklinks-nav">
+            <h2 data-lang="footer.quick_links.name">Меню</h2>
+            <ul>
+                <li><a data-lang="footer.quick_links.options.0" href="#features"
+                        title="Learn about our features to enhance hiring">Решения</a></li>
+                <li><a data-lang="footer.quick_links.options.1" href="#why-choose-us-section"
+                        title="Reasons to choose tapHR for hiring">Ценности</a></li>
+                <li><a data-lang="footer.quick_links.options.2" href="#pricing"
+                        title="View our pricing plans">Тарифы</a></li>
+            </ul>
+        </nav>
+        <nav aria-label="Social Media Links" id="footer-messengers-nav">
+            <h2 data-lang="footer.social_media">Социальные сети</h2>
+            <ul>
+                <li>
+                    <a aria-label="Visit tapHR LinkedIn page" href="https://www.linkedin.com/company/taphr/" rel="noopener noreferrer"
+                        target="_blank">
+                        <svg fill="none" height="37" viewbox="0 0 36 37" width="36" xmlns="http://www.w3.org/2000/svg">
+                            <title id="linkedin-logo">Visit our LinkedIn page</title>
+                            <circle cx="18" cy="18.2026" fill="#007AB9" r="18"></circle>
+                            <circle cx="18" cy="18.2026" r="17" stroke="white" stroke-width="2"></circle>
+                            <circle cx="18" cy="18.2026" r="17.75" stroke="#E5E5E5" stroke-width="0.5"></circle>
+                            <path
+                                d="M11.8817 12.6477C13.0224 12.6477 13.9471 11.7231 13.9471 10.5824C13.9471 9.44177 13.0224 8.51709 11.8817 8.51709C10.7411 8.51709 9.81641 9.44177 9.81641 10.5824C9.81641 11.7231 10.7411 12.6477 11.8817 12.6477Z"
+                                fill="white"></path>
+                            <path
+                                d="M15.8963 14.2114V25.6698H19.454V20.0034C19.454 18.5082 19.7353 17.0602 21.5892 17.0602C23.4176 17.0602 23.4402 18.7697 23.4402 20.0978V25.6708H26.9998V19.387C26.9998 16.3003 26.3353 13.9282 22.7275 13.9282C20.9954 13.9282 19.8344 14.8788 19.3596 15.7783H19.3114V14.2114H15.8963ZM10.0986 14.2114H13.662V25.6698H10.0986V14.2114Z"
+                                fill="white"></path>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a aria-label="Follow tapHR on Instagram" href="https://www.instagram.com/taphr.kz/?locale=French&amp;hl=am-et"
+                        rel="noopener noreferrer" target="_blank">
+                        <svg fill="none" height="37" viewbox="0 0 36 37" width="36" xmlns="http://www.w3.org/2000/svg">
+                            <title id="instagram-logo">Visit our Instagram page</title>
+                            <circle cx="18" cy="18.2026" fill="#BB346C" r="18"></circle>
+                            <circle cx="18" cy="18.2026" r="17" stroke="white" stroke-width="2"></circle>
+                            <circle cx="18" cy="18.2026" r="17.75" stroke="#E5E5E5" stroke-width="0.5"></circle>
+                            <path clip-rule="evenodd"
+                                d="M14.5252 9.58962C15.4671 9.54626 15.7674 9.53662 18.1667 9.53662C20.5659 9.53662 20.8663 9.54706 21.8073 9.58962C22.7484 9.63217 23.3908 9.78233 23.9529 9.99994C24.5415 10.2224 25.0754 10.57 25.5171 11.0197C25.9667 11.4605 26.3136 11.9937 26.5352 12.5831C26.7536 13.1452 26.903 13.7875 26.9464 14.727C26.9897 15.6705 26.9993 15.9708 26.9993 18.3693C26.9993 20.7686 26.9889 21.0689 26.9464 22.0108C26.9038 22.9503 26.7536 23.5926 26.5352 24.1547C26.3136 24.7442 25.9661 25.2782 25.5171 25.7197C25.0754 26.1694 24.5415 26.5162 23.9529 26.7379C23.3908 26.9563 22.7484 27.1056 21.8089 27.149C20.8663 27.1923 20.5659 27.202 18.1667 27.202C15.7674 27.202 15.4671 27.1915 14.5252 27.149C13.5857 27.1064 12.9433 26.9563 12.3813 26.7379C11.7918 26.5162 11.2578 26.1688 10.8163 25.7197C10.3669 25.2786 10.0192 24.7448 9.7973 24.1555C9.57969 23.5934 9.43034 22.9511 9.38698 22.0116C9.34362 21.0681 9.33398 20.7678 9.33398 18.3693C9.33398 15.97 9.34442 15.6697 9.38698 14.7286C9.42954 13.7875 9.57969 13.1452 9.7973 12.5831C10.0195 11.9938 10.3675 11.46 10.8171 11.0189C11.2579 10.5696 11.7915 10.2219 12.3805 9.99994C12.9425 9.78233 13.5849 9.63298 14.5244 9.58962H14.5252ZM21.7359 11.1795C20.8044 11.1369 20.525 11.1281 18.1667 11.1281C15.8083 11.1281 15.5289 11.1369 14.5975 11.1795C13.7359 11.2188 13.2685 11.3626 12.957 11.4838C12.5451 11.6444 12.2504 11.8347 11.9412 12.1439C11.6482 12.429 11.4227 12.776 11.2812 13.1596C11.1599 13.4712 11.0162 13.9385 10.9769 14.8001C10.9343 15.7315 10.9255 16.011 10.9255 18.3693C10.9255 20.7276 10.9343 21.0071 10.9769 21.9385C11.0162 22.8001 11.1599 23.2674 11.2812 23.579C11.4225 23.962 11.6481 24.3097 11.9412 24.5947C12.2263 24.8878 12.574 25.1135 12.957 25.2548C13.2685 25.376 13.7359 25.5198 14.5975 25.5591C15.5289 25.6017 15.8075 25.6105 18.1667 25.6105C20.5258 25.6105 20.8044 25.6017 21.7359 25.5591C22.5975 25.5198 23.0648 25.376 23.3763 25.2548C23.7883 25.0942 24.083 24.9039 24.3921 24.5947C24.6852 24.3097 24.9108 23.962 25.0521 23.579C25.1734 23.2674 25.3171 22.8001 25.3565 21.9385C25.399 21.0071 25.4079 20.7276 25.4079 18.3693C25.4079 16.011 25.399 15.7315 25.3565 14.8001C25.3171 13.9385 25.1734 13.4712 25.0521 13.1596C24.8915 12.7477 24.7012 12.453 24.3921 12.1439C24.107 11.8508 23.7599 11.6253 23.3763 11.4838C23.0648 11.3626 22.5975 11.2188 21.7359 11.1795ZM17.0385 21.0922C17.6686 21.3545 18.3701 21.3899 19.0234 21.1923C19.6766 20.9948 20.2411 20.5766 20.6202 20.0092C20.9994 19.4417 21.1698 18.7602 21.1024 18.0811C21.0349 17.402 20.7338 16.7674 20.2504 16.2856C19.9422 15.9776 19.5696 15.7418 19.1594 15.5952C18.7492 15.4485 18.3115 15.3946 17.878 15.4373C17.4444 15.4801 17.0258 15.6185 16.6521 15.8425C16.2784 16.0664 15.9591 16.3705 15.717 16.7327C15.475 17.095 15.3163 17.5063 15.2523 17.9373C15.1883 18.3682 15.2207 18.808 15.3471 19.2249C15.4734 19.6418 15.6907 20.0255 15.9832 20.3484C16.2756 20.6713 16.6361 20.9253 17.0385 21.0922ZM14.9564 15.159C15.378 14.7374 15.8785 14.403 16.4293 14.1749C16.9801 13.9467 17.5705 13.8293 18.1667 13.8293C18.7629 13.8293 19.3532 13.9467 19.9041 14.1749C20.4549 14.403 20.9554 14.7374 21.3769 15.159C21.7985 15.5806 22.1329 16.0811 22.3611 16.6319C22.5893 17.1827 22.7067 17.7731 22.7067 18.3693C22.7067 18.9655 22.5893 19.5559 22.3611 20.1067C22.1329 20.6575 21.7985 21.158 21.3769 21.5796C20.5255 22.431 19.3708 22.9093 18.1667 22.9093C16.9626 22.9093 15.8078 22.431 14.9564 21.5796C14.105 20.7282 13.6266 19.5734 13.6266 18.3693C13.6266 17.1652 14.105 16.0104 14.9564 15.159ZM23.7136 14.5054C23.8181 14.4069 23.9017 14.2883 23.9595 14.1569C24.0174 14.0254 24.0483 13.8837 24.0504 13.7401C24.0525 13.5965 24.0257 13.454 23.9717 13.3209C23.9177 13.1878 23.8376 13.0669 23.736 12.9653C23.6345 12.8638 23.5136 12.7836 23.3805 12.7296C23.2474 12.6757 23.1049 12.6489 22.9613 12.651C22.8177 12.6531 22.6759 12.684 22.5445 12.7418C22.413 12.7997 22.2945 12.8833 22.196 12.9878C22.0043 13.191 21.8994 13.4608 21.9035 13.7401C21.9075 14.0194 22.0203 14.2861 22.2178 14.4836C22.4153 14.6811 22.682 14.7939 22.9613 14.7979C23.2405 14.802 23.5104 14.6971 23.7136 14.5054Z"
+                                fill="white" fill-rule="evenodd"></path>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <address id="footer-address">
+            <h2 data-lang="footer.contacts.name" id="footer-address-title">Контакты</h2>
+            <p id="footer-email">
+                <svg aria-label="Email Icon" fill="none" height="25" role="img" width="24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M6 8.20264L9.7812 10.7234C11.1248 11.6192 12.8752 11.6192 14.2188 10.7234L18 8.20264M6 21.2026H18C20.2091 21.2026 22 19.4118 22 17.2026V7.20264C22 4.9935 20.2091 3.20264 18 3.20264H6C3.79086 3.20264 2 4.9935 2 7.20264V17.2026C2 19.4118 3.79086 21.2026 6 21.2026Z"
+                        stroke="#151813" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                </svg>
+                <span data-lang="footer.contacts.options.email">sales@tapHR.kz</span>
+            </p>
+            <p id="footer-phone">
+                <svg aria-label="Phone Icon" fill="none" height="25" role="img" width="24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M15 16.2026L14.8529 16.9381C15.1846 17.0044 15.5196 16.8406 15.6708 16.538L15 16.2026ZM8 9.20264L7.66459 8.53182C7.36208 8.68307 7.19824 9.01808 7.26456 9.34972L8 9.20264ZM8.35402 9.02563L8.68943 9.69645L8.68943 9.69645L8.35402 9.02563ZM9.31654 6.49399L10.0129 6.21545L9.31654 6.49399ZM8.50289 4.45986L7.80653 4.7384L8.50289 4.45986ZM19.7428 15.6997L19.4642 16.3961L19.7428 15.6997ZM17.7086 14.8861L17.9872 14.1897H17.9872L17.7086 14.8861ZM15.177 15.8486L15.8478 16.184V16.184L15.177 15.8486ZM16.25 11.2026C16.25 11.6168 16.5858 11.9526 17 11.9526C17.4142 11.9526 17.75 11.6168 17.75 11.2026H16.25ZM16.6955 9.6719L17.3884 9.38489L16.6955 9.6719ZM14.5307 7.50712L14.8177 6.81421L14.5307 7.50712ZM13 6.45264C12.5858 6.45264 12.25 6.78842 12.25 7.20264C12.25 7.61685 12.5858 7.95264 13 7.95264V6.45264ZM20.25 11.2026C20.25 11.6168 20.5858 11.9526 21 11.9526C21.4142 11.9526 21.75 11.6168 21.75 11.2026H20.25ZM20.391 8.14117L21.0839 7.85416L20.391 8.14117ZM16.0615 3.8116L16.3485 3.11869V3.11869L16.0615 3.8116ZM13 2.45264C12.5858 2.45264 12.25 2.78842 12.25 3.20264C12.25 3.61685 12.5858 3.95264 13 3.95264V2.45264ZM20.25 17.5567V19.2026H21.75V17.5567H20.25ZM5 3.95264H6.64593V2.45264H5V3.95264ZM15 16.2026C15.1471 15.4672 15.1473 15.4672 15.1475 15.4673C15.1476 15.4673 15.1477 15.4673 15.1479 15.4674C15.1481 15.4674 15.1483 15.4674 15.1484 15.4675C15.1487 15.4675 15.1488 15.4676 15.1488 15.4676C15.1488 15.4676 15.1482 15.4674 15.147 15.4672C15.1447 15.4667 15.14 15.4657 15.1331 15.4642C15.1193 15.4611 15.0967 15.456 15.0659 15.4485C15.0044 15.4335 14.9104 15.4092 14.7898 15.3737C14.5482 15.3027 14.2016 15.1874 13.7954 15.0133C12.9796 14.6636 11.9439 14.0859 11.0303 13.1723L9.96967 14.233C11.0561 15.3194 12.2704 15.9916 13.2046 16.392C13.6734 16.5929 14.0768 16.7276 14.3665 16.8128C14.5115 16.8554 14.6285 16.8858 14.7114 16.906C14.7529 16.9161 14.7859 16.9236 14.8097 16.9289C14.8217 16.9315 14.8313 16.9336 14.8385 16.9351C14.8421 16.9359 14.8451 16.9365 14.8475 16.937C14.8487 16.9372 14.8498 16.9374 14.8507 16.9376C14.8511 16.9377 14.8515 16.9378 14.8519 16.9379C14.8521 16.9379 14.8523 16.938 14.8524 16.938C14.8527 16.938 14.8529 16.9381 15 16.2026ZM11.0303 13.1723C10.1167 12.2587 9.53901 11.2231 9.18936 10.4072C9.01527 10.001 8.89996 9.65448 8.8289 9.41289C8.79342 9.29226 8.76912 9.19828 8.75414 9.1367C8.74666 9.10593 8.74151 9.08329 8.73847 9.06951C8.73695 9.06262 8.73595 9.05796 8.73546 9.0556C8.73521 9.05442 8.73509 9.05382 8.73508 9.05381C8.73508 9.0538 8.73511 9.05394 8.73517 9.05423C8.7352 9.05438 8.73524 9.05456 8.73528 9.05478C8.7353 9.05489 8.73534 9.05508 8.73535 9.05514C8.73539 9.05534 8.73544 9.05555 8 9.20264C7.26456 9.34972 7.26461 9.34995 7.26466 9.35019C7.26468 9.35029 7.26473 9.35054 7.26477 9.35072C7.26484 9.3511 7.26492 9.35151 7.26501 9.35195C7.2652 9.35285 7.26541 9.3539 7.26566 9.35511C7.26615 9.35751 7.26677 9.36053 7.26753 9.36414C7.26905 9.37137 7.27111 9.38098 7.27374 9.39289C7.279 9.41671 7.28655 9.44974 7.29664 9.49123C7.31682 9.57418 7.34721 9.69114 7.38985 9.83614C7.47504 10.1258 7.60973 10.5293 7.81064 10.9981C8.21099 11.9322 8.88325 13.1465 9.96967 14.233L11.0303 13.1723ZM8.33541 9.87346L8.68943 9.69645L8.01861 8.35481L7.66459 8.53182L8.33541 9.87346ZM10.0129 6.21545L9.19925 4.18131L7.80653 4.7384L8.62018 6.77254L10.0129 6.21545ZM20.0213 15.0034L17.9872 14.1897L17.4301 15.5825L19.4642 16.3961L20.0213 15.0034ZM14.5062 15.5132L14.3292 15.8672L15.6708 16.538L15.8478 16.184L14.5062 15.5132ZM17.9872 14.1897C16.6592 13.6586 15.1458 14.234 14.5062 15.5132L15.8478 16.184C16.1386 15.6026 16.8265 15.341 17.4301 15.5825L17.9872 14.1897ZM8.68943 9.69645C9.96868 9.05682 10.5441 7.5434 10.0129 6.21545L8.62018 6.77254C8.86163 7.37615 8.60008 8.06407 8.01861 8.35481L8.68943 9.69645ZM6.64593 3.95264C7.15706 3.95264 7.6167 4.26383 7.80653 4.7384L9.19925 4.18131C8.78162 3.13725 7.77042 2.45264 6.64593 2.45264V3.95264ZM21.75 17.5567C21.75 16.4322 21.0654 15.421 20.0213 15.0034L19.4642 16.3961C19.9388 16.5859 20.25 17.0456 20.25 17.5567H21.75ZM19 20.4526C10.5777 20.4526 3.75 13.625 3.75 5.20264H2.25C2.25 14.4534 9.74923 21.9526 19 21.9526V20.4526ZM19 21.9526C20.5188 21.9526 21.75 20.7214 21.75 19.2026H20.25C20.25 19.893 19.6904 20.4526 19 20.4526V21.9526ZM3.75 5.20264C3.75 4.51228 4.30964 3.95264 5 3.95264V2.45264C3.48122 2.45264 2.25 3.68385 2.25 5.20264H3.75ZM17.75 11.2026C17.75 10.5789 17.6271 9.96119 17.3884 9.38489L16.0026 9.95892C16.1659 10.3532 16.25 10.7758 16.25 11.2026H17.75ZM17.3884 9.38489C17.1497 8.80859 16.7998 8.28496 16.3588 7.84388L15.2981 8.90454C15.5999 9.20633 15.8393 9.56461 16.0026 9.95892L17.3884 9.38489ZM16.3588 7.84388C15.9177 7.4028 15.394 7.05292 14.8177 6.81421L14.2437 8.20003C14.638 8.36336 14.9963 8.60275 15.2981 8.90454L16.3588 7.84388ZM14.8177 6.81421C14.2415 6.5755 13.6238 6.45264 13 6.45264V7.95264C13.4268 7.95264 13.8494 8.0367 14.2437 8.20003L14.8177 6.81421ZM21.75 11.2026C21.75 10.0536 21.5237 8.91576 21.0839 7.85416L19.6981 8.42818C20.0625 9.30779 20.25 10.2506 20.25 11.2026H21.75ZM21.0839 7.85416C20.6442 6.79256 19.9997 5.82796 19.1872 5.01545L18.1265 6.07611C18.7997 6.74934 19.3338 7.54857 19.6981 8.42818L21.0839 7.85416ZM19.1872 5.01545C18.3747 4.20294 17.4101 3.55842 16.3485 3.11869L15.7745 4.50451C16.6541 4.86886 17.4533 5.40289 18.1265 6.07611L19.1872 5.01545ZM16.3485 3.11869C15.2869 2.67896 14.1491 2.45264 13 2.45264V3.95264C13.9521 3.95264 14.8948 4.14016 15.7745 4.50451L16.3485 3.11869Z"
+                        fill="#151813"></path>
+                </svg>
+                <span data-lang="footer.contacts.options.phone">+7 (771) 758 35 33</span>
+            </p>
+            <p id="footer-place">
+                <svg aria-label="Location Icon" fill="none" height="25" role="img" width="24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="11.2026" r="3" stroke="#151813" stroke-width="1.5"></circle>
+                    <path
+                        d="M21 11.0915C21 16.0007 15.375 22.2026 12 22.2026C8.625 22.2026 3 16.0007 3 11.0915C3 6.18233 7.02944 2.20264 12 2.20264C16.9706 2.20264 21 6.18233 21 11.0915Z"
+                        stroke="#151813" stroke-width="1.5"></path>
+                </svg>
+                <span data-lang="footer.contacts.options.location">Казахстан, г. Астана</span>
+            </p>
+        </address>
+        <p data-lang="footer.copyright" id="footer-reserved">© tapHR 2025. Все права защищены.</p>
+    </footer>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HD3FKKRDFG"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-HD3FKKRDFG');
+    </script>
+
+    <!-- Yandex Metrica Noscript -->
+    <noscript><div><img src="https://mc.yandex.ru/watch/99665233" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+</body>
+</html>

@@ -1,0 +1,6 @@
+# robots.txt for tapHR website
+
+User-agent: *
+Disallow:
+
+Sitemap: https://taphr.kz/sitemap.xml

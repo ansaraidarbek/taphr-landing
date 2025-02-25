@@ -1,0 +1,30 @@
+[
+    {
+        "name": "nazarbayev university",
+        "logo": "./images/partners/image1.png"
+    },
+    {
+        "name": "astana_hub",
+        "logo": "./images/partners/image2.png"
+    },
+    {
+        "name": "тиын",
+        "logo": "./images/partners/image3.png"
+    },
+    {
+        "name": "set_group",
+        "logo": "./images/partners/image4.png"
+    },
+    {
+        "name": "polymetal",
+        "logo": "./images/partners/image5.png"
+    },
+    {
+        "name": "bosch",
+        "logo": "./images/partners/image6.png"
+    },
+    {
+        "name" : "raiffeisen_bank",
+        "logo": "./images/partners/image7.png"
+    }
+]
